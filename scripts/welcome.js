@@ -13,6 +13,14 @@ const repositoryName = () => {
 const createRepoDescription =
   'A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)';
 
+/* Validates a PAT against the GitHub API. Returns the user object on success, null on failure. */
+const validateToken = async token => {
+  const res = await fetch('https://api.github.com/user', {
+    headers: { Authorization: `token ${token}` },
+  });
+  return res.ok ? res.json() : null;
+};
+
 /* Sync's local storage with persistent stats and returns the pulled stats. Currently only syncs when we install, or unlink then relink */
 const syncStats = async () => {
   let { leethub_hook, leethub_token, sync_stats, stats } = await api.storage.local.get([
@@ -281,7 +289,9 @@ $('#unlink a').on('click', () => {
 });
 
 /* Detect mode type */
-api.storage.local.get('mode_type', data => {
+const checkModeType = () => {
+  document.getElementById('auth_mode').style.display = 'none';
+  api.storage.local.get('mode_type', data => {
   const mode = data.mode_type;
 
   if (mode && mode === 'commit') {
@@ -326,4 +336,45 @@ api.storage.local.get('mode_type', data => {
     document.getElementById('hook_mode').style.display = 'inherit';
     document.getElementById('commit_mode').style.display = 'none';
   }
+  });
+};
+
+const showAuthMode = () => {
+  document.getElementById('auth_mode').style.display = 'inherit';
+  document.getElementById('hook_mode').style.display = 'none';
+  document.getElementById('commit_mode').style.display = 'none';
+};
+
+$('#save_token').on('click', async () => {
+  const token = $('#pat_input').val().trim();
+  if (!token) {
+    $('#error').text('No token entered - paste a GitHub Personal Access Token to continue!');
+    $('#error').show();
+    return;
+  }
+  const user = await validateToken(token);
+  if (!user) {
+    $('#error').text('Invalid or expired token - generate a new fine-grained PAT with repo access and try again.');
+    $('#error').show();
+    return;
+  }
+  $('#error').hide();
+  await api.storage.local.set({ leethub_token: token, leethub_username: user.login });
+  checkModeType();
+});
+
+/* Auth gate: no valid token means show the token-paste screen instead of hook/commit modes */
+api.storage.local.get('leethub_token', async data => {
+  const token = data.leethub_token;
+  if (!token) {
+    showAuthMode();
+    return;
+  }
+  const user = await validateToken(token);
+  if (!user) {
+    await api.storage.local.set({ leethub_token: null });
+    showAuthMode();
+    return;
+  }
+  checkModeType();
 });

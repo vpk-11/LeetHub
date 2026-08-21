@@ -31,6 +31,41 @@
         </p>
       </div>
 
+      <!-- Authenticate -->
+      <div
+        style="display: none"
+        id="auth_mode"
+        class="ui grid container"
+      >
+        <div class="six wide column">
+          <p class="caption ui large header center aligned">
+            To get started with LeetHub
+          </p>
+        </div>
+        <div class="ten wide left aligned column">
+          <div class="ui form">
+            <div class="field">
+              <input
+                autocomplete="off"
+                id="pat_input"
+                placeholder="GitHub Personal Access Token"
+                type="password"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="sixteen wide right aligned column">
+          <br />
+          <button
+            id="save_token"
+            class="positive ui button"
+          >
+            Save Token
+          </button>
+        </div>
+      </div>
+
       <!-- Create Hook -->
       <div
         style="display: none"
