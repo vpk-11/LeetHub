@@ -1,18 +1,11 @@
 import { getBrowser } from "./leetcode/util.js";
 
-let action = false;
-
 let api = getBrowser()
-
-$('#authenticate').on('click', () => {
-  if (action) {
-    oAuth2.begin();
-  }
-});
 
 /* Get URL for welcome page */
 $('#welcome_URL').attr('href', api.runtime.getURL('welcome.html'));
 $('#hook_URL').attr('href', api.runtime.getURL('welcome.html'));
+$('#authenticate').attr('href', api.runtime.getURL('welcome.html'));
 $('#reset_stats').on('click', () => {
   $('#reset_confirmation').show();
   $('#reset_yes').off('click').on('click', () => {
@@ -31,7 +24,6 @@ $('#reset_stats').on('click', () => {
 api.storage.local.get('leethub_token', data => {
   const token = data.leethub_token;
   if (token === null || token === undefined) {
-    action = true;
     $('#auth_mode').show();
   } else {
     // To validate user, load user object from GitHub.
@@ -67,8 +59,7 @@ api.storage.local.get('leethub_token', data => {
           // bad oAuth
           // reset token and redirect to authorization process again!
           api.storage.local.set({ leethub_token: null }, () => {
-            console.log('BAD oAuth!!! Redirecting back to oAuth process');
-            action = true;
+            console.log('Bad token. Redirecting back to auth.');
             $('#auth_mode').show();
           });
         }
