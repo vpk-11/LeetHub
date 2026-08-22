@@ -57,156 +57,6 @@
       "norm_label": "api"
     },
     {
-      "label": "gfg.js",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "scripts_gfg",
-      "community": 7,
-      "norm_label": "gfg.js"
-    },
-    {
-      "label": "toKebabCase()",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "scripts_gfg_tokebabcase",
-      "community": 7,
-      "norm_label": "tokebabcase()"
-    },
-    {
-      "label": "findGfgLanguage()",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "scripts_gfg_findgfglanguage",
-      "community": 7,
-      "norm_label": "findgfglanguage()"
-    },
-    {
-      "label": "findTitle()",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "scripts_gfg_findtitle",
-      "community": 7,
-      "norm_label": "findtitle()"
-    },
-    {
-      "label": "findDifficulty()",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "scripts_gfg_finddifficulty",
-      "community": 7,
-      "norm_label": "finddifficulty()"
-    },
-    {
-      "label": "getProblemStatement()",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L52",
-      "_origin": "ast",
-      "id": "scripts_gfg_getproblemstatement",
-      "community": 7,
-      "norm_label": "getproblemstatement()"
-    },
-    {
-      "label": "getCode()",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "scripts_gfg_getcode",
-      "community": 7,
-      "norm_label": "getcode()"
-    },
-    {
-      "label": "gfgLoader",
-      "file_type": "code",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L84",
-      "_origin": "ast",
-      "id": "scripts_gfg_gfgloader",
-      "community": 7,
-      "norm_label": "gfgloader"
-    },
-    {
-      "label": "interceptor.js",
-      "file_type": "code",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "scripts_interceptor",
-      "community": 9,
-      "norm_label": "interceptor.js"
-    },
-    {
-      "label": "handleSubmitResponse()",
-      "file_type": "code",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "scripts_interceptor_handlesubmitresponse",
-      "community": 9,
-      "norm_label": "handlesubmitresponse()"
-    },
-    {
-      "label": "handleSolutionPostBody()",
-      "file_type": "code",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "scripts_interceptor_handlesolutionpostbody",
-      "community": 9,
-      "norm_label": "handlesolutionpostbody()"
-    },
-    {
-      "label": ".open()",
-      "file_type": "code",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L60",
-      "_origin": "ast",
-      "id": "scripts_interceptor_xmlhttprequest_open",
-      "community": 14,
-      "norm_label": ".open()"
-    },
-    {
-      "label": ".send()",
-      "file_type": "code",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L66",
-      "_origin": "ast",
-      "id": "scripts_interceptor_xmlhttprequest_send",
-      "community": 9,
-      "norm_label": ".send()"
-    },
-    {
-      "label": "interceptorLoader.js",
-      "file_type": "code",
-      "source_file": "scripts/interceptorLoader.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "scripts_interceptorloader",
-      "community": 13,
-      "norm_label": "interceptorloader.js"
-    },
-    {
-      "label": "script",
-      "file_type": "code",
-      "source_file": "scripts/interceptorLoader.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "scripts_interceptorloader_script",
-      "community": 13,
-      "norm_label": "script"
-    },
-    {
       "label": "leetcode.js",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
@@ -220,7 +70,7 @@
       "label": "api",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "leetcode_leetcode_api",
       "community": 1,
@@ -230,7 +80,7 @@
       "label": "getPath()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "leetcode_leetcode_getpath",
       "community": 1,
@@ -240,7 +90,7 @@
       "label": "decode()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L56",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "leetcode_leetcode_decode",
       "community": 1,
@@ -250,7 +100,7 @@
       "label": "encode()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L58",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "leetcode_leetcode_encode",
       "community": 1,
@@ -260,7 +110,7 @@
       "label": "upload()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L76",
+      "source_location": "L77",
       "_origin": "ast",
       "id": "leetcode_leetcode_upload",
       "community": 1,
@@ -270,7 +120,7 @@
       "label": "getAndInitializeStats()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L111",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "leetcode_leetcode_getandinitializestats",
       "community": 1,
@@ -280,7 +130,7 @@
       "label": "incrementStats()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L136",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "leetcode_leetcode_incrementstats",
       "community": 2,
@@ -290,7 +140,7 @@
       "label": "isCompleted()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L149",
+      "source_location": "L150",
       "_origin": "ast",
       "id": "leetcode_leetcode_iscompleted",
       "community": 1,
@@ -300,7 +150,7 @@
       "label": "updateReadmeWithDiscussionPost()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L163",
+      "source_location": "L164",
       "_origin": "ast",
       "id": "leetcode_leetcode_updatereadmewithdiscussionpost",
       "community": 1,
@@ -310,7 +160,7 @@
       "label": "uploadGitWith409Retry()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L206",
+      "source_location": "L207",
       "_origin": "ast",
       "id": "leetcode_leetcode_uploadgitwith409retry",
       "community": 1,
@@ -320,7 +170,7 @@
       "label": "getGitHubFile()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L277",
+      "source_location": "L278",
       "_origin": "ast",
       "id": "leetcode_leetcode_getgithubfile",
       "community": 1,
@@ -330,7 +180,7 @@
       "label": "createRepoReadme()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L328",
+      "source_location": "L329",
       "_origin": "ast",
       "id": "leetcode_leetcode_createreporeadme",
       "community": 1,
@@ -340,7 +190,7 @@
       "label": "updateReadmeTopicTagsWithProblem()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L333",
+      "source_location": "L334",
       "_origin": "ast",
       "id": "leetcode_leetcode_updatereadmetopictagswithproblem",
       "community": 1,
@@ -350,7 +200,7 @@
       "label": "getCustomCommitMessage()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L384",
+      "source_location": "L385",
       "_origin": "ast",
       "id": "leetcode_leetcode_getcustomcommitmessage",
       "community": 19,
@@ -360,7 +210,7 @@
       "label": "questionSlugToProblemName()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L398",
+      "source_location": "L399",
       "_origin": "ast",
       "id": "leetcode_leetcode_questionslugtoproblemname",
       "community": 2,
@@ -370,7 +220,7 @@
       "label": "getLastCommitMessage()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L431",
+      "source_location": "L432",
       "_origin": "ast",
       "id": "leetcode_leetcode_getlastcommitmessage",
       "community": 1,
@@ -380,7 +230,7 @@
       "label": "handleSolutionPost()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L471",
+      "source_location": "L472",
       "_origin": "ast",
       "id": "leetcode_leetcode_handlesolutionpost",
       "community": 1,
@@ -390,17 +240,17 @@
       "label": "loader()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L497",
+      "source_location": "L498",
       "_origin": "ast",
       "id": "leetcode_leetcode_loader",
-      "community": 19,
+      "community": 1,
       "norm_label": "loader()"
     },
     {
       "label": "listenForAutoSubmit()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L634",
+      "source_location": "L637",
       "_origin": "ast",
       "id": "leetcode_leetcode_listenforautosubmit",
       "community": 1,
@@ -410,7 +260,7 @@
       "label": "submitBtnObserver",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L642",
+      "source_location": "L645",
       "_origin": "ast",
       "id": "leetcode_leetcode_submitbtnobserver",
       "community": 1,
@@ -420,7 +270,7 @@
       "label": "LeetHubNetworkError",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L699",
+      "source_location": "L702",
       "_origin": "ast",
       "id": "leetcode_leetcode_leethubnetworkerror",
       "community": 1,
@@ -430,111 +280,11 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L700",
+      "source_location": "L703",
       "_origin": "ast",
       "id": "leetcode_leetcode_leethubnetworkerror_constructor",
       "community": 1,
       "norm_label": ".constructor()"
-    },
-    {
-      "label": "readmeTopics.js",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/readmeTopics.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "leetcode_readmetopics",
-      "community": 1,
-      "norm_label": "readmetopics.js"
-    },
-    {
-      "label": "appendProblemToReadme()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/readmeTopics.js",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "leetcode_readmetopics_appendproblemtoreadme",
-      "community": 1,
-      "norm_label": "appendproblemtoreadme()"
-    },
-    {
-      "label": "sortTopicsInReadme()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/readmeTopics.js",
-      "source_location": "L86",
-      "_origin": "ast",
-      "id": "leetcode_readmetopics_sorttopicsinreadme",
-      "community": 1,
-      "norm_label": "sorttopicsinreadme()"
-    },
-    {
-      "label": "submitBtn.js",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn",
-      "community": 6,
-      "norm_label": "submitbtn.js"
-    },
-    {
-      "label": "getSubmissionPageBtns()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn_getsubmissionpagebtns",
-      "community": 6,
-      "norm_label": "getsubmissionpagebtns()"
-    },
-    {
-      "label": "createToolTip()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn_createtooltip",
-      "community": 6,
-      "norm_label": "createtooltip()"
-    },
-    {
-      "label": "createGitIcon()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn_creategiticon",
-      "community": 6,
-      "norm_label": "creategiticon()"
-    },
-    {
-      "label": "isValidSuffix()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L45",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn_isvalidsuffix",
-      "community": 6,
-      "norm_label": "isvalidsuffix()"
-    },
-    {
-      "label": "addManualSubmitBtn()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn_addmanualsubmitbtn",
-      "community": 6,
-      "norm_label": "addmanualsubmitbtn()"
-    },
-    {
-      "label": "setupManualSubmitBtn()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L106",
-      "_origin": "ast",
-      "id": "leetcode_submitbtn_setupmanualsubmitbtn",
-      "community": 6,
-      "norm_label": "setupmanualsubmitbtn()"
     },
     {
       "label": "util.js",
@@ -673,7 +423,7 @@
       "source_location": "L165",
       "_origin": "ast",
       "id": "leetcode_util_gettodaysdate",
-      "community": 19,
+      "community": 1,
       "norm_label": "gettodaysdate()"
     },
     {
@@ -683,7 +433,7 @@
       "source_location": "L173",
       "_origin": "ast",
       "id": "leetcode_util_gettimestamp",
-      "community": 19,
+      "community": 1,
       "norm_label": "gettimestamp()"
     },
     {
@@ -767,20 +517,80 @@
       "norm_label": "fetchrepocontent()"
     },
     {
-      "label": "syncCountsFromRepo()",
+      "label": "computeStatsFromReadmes()",
       "file_type": "code",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L289",
+      "source_location": "L290",
       "_origin": "ast",
-      "id": "leetcode_util_synccountsfromrepo",
+      "id": "leetcode_util_computestatsfromreadmes",
       "community": 19,
-      "norm_label": "synccountsfromrepo()"
+      "norm_label": "computestatsfromreadmes()"
+    },
+    {
+      "label": "getRepoStats()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L320",
+      "_origin": "ast",
+      "id": "leetcode_util_getrepostats",
+      "community": 19,
+      "norm_label": "getrepostats()"
+    },
+    {
+      "label": "putRepoStats()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L335",
+      "_origin": "ast",
+      "id": "leetcode_util_putrepostats",
+      "community": 19,
+      "norm_label": "putrepostats()"
+    },
+    {
+      "label": "saveLocalStats()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L353",
+      "_origin": "ast",
+      "id": "leetcode_util_savelocalstats",
+      "community": 19,
+      "norm_label": "savelocalstats()"
+    },
+    {
+      "label": "syncStatsFromRepo()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "leetcode_util_syncstatsfromrepo",
+      "community": 19,
+      "norm_label": "syncstatsfromrepo()"
+    },
+    {
+      "label": "recomputeStatsFromRepo()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L393",
+      "_origin": "ast",
+      "id": "leetcode_util_recomputestatsfromrepo",
+      "community": 19,
+      "norm_label": "recomputestatsfromrepo()"
+    },
+    {
+      "label": "pushStatsToRepo()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L417",
+      "_origin": "ast",
+      "id": "leetcode_util_pushstatstorepo",
+      "community": 19,
+      "norm_label": "pushstatstorepo()"
     },
     {
       "label": "SETTINGS_KEYS",
       "file_type": "code",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L337",
+      "source_location": "L437",
       "_origin": "ast",
       "id": "leetcode_util_settings_keys",
       "community": 19,
@@ -790,7 +600,7 @@
       "label": "getRepoConfig()",
       "file_type": "code",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L347",
+      "source_location": "L447",
       "_origin": "ast",
       "id": "leetcode_util_getrepoconfig",
       "community": 19,
@@ -800,7 +610,7 @@
       "label": "putRepoConfig()",
       "file_type": "code",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L362",
+      "source_location": "L462",
       "_origin": "ast",
       "id": "leetcode_util_putrepoconfig",
       "community": 19,
@@ -810,7 +620,7 @@
       "label": "syncConfigFromRepo()",
       "file_type": "code",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L385",
+      "source_location": "L485",
       "_origin": "ast",
       "id": "leetcode_util_syncconfigfromrepo",
       "community": 19,
@@ -820,399 +630,9 @@
       "label": "pushConfigToRepo()",
       "file_type": "code",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L405",
+      "source_location": "L505",
       "_origin": "ast",
       "id": "leetcode_util_pushconfigtorepo",
-      "community": 19,
-      "norm_label": "pushconfigtorepo()"
-    },
-    {
-      "label": "versions.js",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "leetcode_versions",
-      "community": 2,
-      "norm_label": "versions.js"
-    },
-    {
-      "label": "LeetCodeV1()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1",
-      "community": 2,
-      "norm_label": "leetcodev1()"
-    },
-    {
-      "label": ".init()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_init",
-      "community": 2,
-      "norm_label": ".init()"
-    },
-    {
-      "label": ".findCode()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_findcode",
-      "community": 2,
-      "norm_label": ".findcode()"
-    },
-    {
-      "label": ".getLanguageExtension()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L100",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_getlanguageextension",
-      "community": 2,
-      "norm_label": ".getlanguageextension()"
-    },
-    {
-      "label": ".getLanguageName()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L117",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_getlanguagename",
-      "community": 2,
-      "norm_label": ".getlanguagename()"
-    },
-    {
-      "label": ".getNotesIfAny()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L135",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_getnotesifany",
-      "community": 2,
-      "norm_label": ".getnotesifany()"
-    },
-    {
-      "label": ".getProblemNameSlug()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L162",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_getproblemnameslug",
-      "community": 2,
-      "norm_label": ".getproblemnameslug()"
-    },
-    {
-      "label": ".getSuccessStateAndUpdate()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L180",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_getsuccessstateandupdate",
-      "community": 2,
-      "norm_label": ".getsuccessstateandupdate()"
-    },
-    {
-      "label": ".parseStats()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L207",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_parsestats",
-      "community": 2,
-      "norm_label": ".parsestats()"
-    },
-    {
-      "label": ".parseQuestion()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L220",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_parsequestion",
-      "community": 2,
-      "norm_label": ".parsequestion()"
-    },
-    {
-      "label": ".startSpinner()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L270",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_startspinner",
-      "community": 2,
-      "norm_label": ".startspinner()"
-    },
-    {
-      "label": ".injectSpinnerStyle()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L285",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_injectspinnerstyle",
-      "community": 2,
-      "norm_label": ".injectspinnerstyle()"
-    },
-    {
-      "label": ".insertToAnchorElement()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L291",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_inserttoanchorelement",
-      "community": 2,
-      "norm_label": ".inserttoanchorelement()"
-    },
-    {
-      "label": ".markUploaded()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L313",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_markuploaded",
-      "community": 2,
-      "norm_label": ".markuploaded()"
-    },
-    {
-      "label": ".markUploadFailed()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L322",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev1_markuploadfailed",
-      "community": 2,
-      "norm_label": ".markuploadfailed()"
-    },
-    {
-      "label": "LeetCodeV2()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L331",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2",
-      "community": 2,
-      "norm_label": "leetcodev2()"
-    },
-    {
-      "label": ".init()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L339",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_init",
-      "community": 2,
-      "norm_label": ".init()"
-    },
-    {
-      "label": ".findCode()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L385",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_findcode",
-      "community": 2,
-      "norm_label": ".findcode()"
-    },
-    {
-      "label": ".getCode()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L393",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_getcode",
-      "community": 2,
-      "norm_label": ".getcode()"
-    },
-    {
-      "label": ".getLanguageExtension()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L406",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_getlanguageextension",
-      "community": 2,
-      "norm_label": ".getlanguageextension()"
-    },
-    {
-      "label": ".getLanguageName()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L425",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_getlanguagename",
-      "community": 2,
-      "norm_label": ".getlanguagename()"
-    },
-    {
-      "label": ".getNotesIfAny()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L437",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_getnotesifany",
-      "community": 2,
-      "norm_label": ".getnotesifany()"
-    },
-    {
-      "label": ".getProblemNameSlug()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L438",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_getproblemnameslug",
-      "community": 2,
-      "norm_label": ".getproblemnameslug()"
-    },
-    {
-      "label": ".getSuccessStateAndUpdate()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L444",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_getsuccessstateandupdate",
-      "community": 2,
-      "norm_label": ".getsuccessstateandupdate()"
-    },
-    {
-      "label": ".parseStats()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L453",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_parsestats",
-      "community": 2,
-      "norm_label": ".parsestats()"
-    },
-    {
-      "label": ".parseQuestion()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L479",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_parsequestion",
-      "community": 2,
-      "norm_label": ".parsequestion()"
-    },
-    {
-      "label": ".parseQuestionTitle()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L497",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_parsequestiontitle",
-      "community": 2,
-      "norm_label": ".parsequestiontitle()"
-    },
-    {
-      "label": ".parseQuestionDescription()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L514",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_parsequestiondescription",
-      "community": 2,
-      "norm_label": ".parsequestiondescription()"
-    },
-    {
-      "label": ".parseDifficulty()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L525",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_parsedifficulty",
-      "community": 2,
-      "norm_label": ".parsedifficulty()"
-    },
-    {
-      "label": ".startSpinner()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L537",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_startspinner",
-      "community": 2,
-      "norm_label": ".startspinner()"
-    },
-    {
-      "label": ".injectSpinnerStyle()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L547",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_injectspinnerstyle",
-      "community": 2,
-      "norm_label": ".injectspinnerstyle()"
-    },
-    {
-      "label": ".insertToAnchorElement()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L552",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_inserttoanchorelement",
-      "community": 2,
-      "norm_label": ".inserttoanchorelement()"
-    },
-    {
-      "label": ".markUploaded()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L577",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_markuploaded",
-      "community": 2,
-      "norm_label": ".markuploaded()"
-    },
-    {
-      "label": ".markUploadFailed()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/versions.js",
-      "source_location": "L585",
-      "_origin": "ast",
-      "id": "leetcode_versions_leetcodev2_markuploadfailed",
-      "community": 2,
-      "norm_label": ".markuploadfailed()"
-    },
-    {
-      "label": "popup.js",
-      "file_type": "code",
-      "source_file": "scripts/popup.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "scripts_popup",
-      "community": 19,
-      "norm_label": "popup.js"
-    },
-    {
-      "label": "api",
-      "file_type": "code",
-      "source_file": "scripts/popup.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "scripts_popup_api",
-      "community": 19,
-      "norm_label": "api"
-    },
-    {
-      "label": "renderStats()",
-      "file_type": "code",
-      "source_file": "scripts/popup.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "scripts_popup_renderstats",
-      "community": 19,
-      "norm_label": "renderstats()"
-    },
-    {
-      "label": "pushConfigToRepo()",
-      "file_type": "code",
-      "source_file": "scripts/popup.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "scripts_popup_pushconfigtorepo",
       "community": 19,
       "norm_label": "pushconfigtorepo()"
     },
@@ -1367,14 +787,654 @@
       "norm_label": "showauthmode()"
     },
     {
+      "label": "gfg.js",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "gfg.js",
+      "id": "scripts_gfg"
+    },
+    {
+      "label": "toKebabCase()",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "tokebabcase()",
+      "id": "scripts_gfg_tokebabcase"
+    },
+    {
+      "label": "findGfgLanguage()",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "findgfglanguage()",
+      "id": "scripts_gfg_findgfglanguage"
+    },
+    {
+      "label": "findTitle()",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "findtitle()",
+      "id": "scripts_gfg_findtitle"
+    },
+    {
+      "label": "findDifficulty()",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L39",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "finddifficulty()",
+      "id": "scripts_gfg_finddifficulty"
+    },
+    {
+      "label": "getProblemStatement()",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L52",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "getproblemstatement()",
+      "id": "scripts_gfg_getproblemstatement"
+    },
+    {
+      "label": "getCode()",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L57",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "getcode()",
+      "id": "scripts_gfg_getcode"
+    },
+    {
+      "label": "gfgLoader",
+      "file_type": "code",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L84",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "gfgloader",
+      "id": "scripts_gfg_gfgloader"
+    },
+    {
+      "label": "interceptor.js",
+      "file_type": "code",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "interceptor.js",
+      "id": "scripts_interceptor"
+    },
+    {
+      "label": "handleSubmitResponse()",
+      "file_type": "code",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "handlesubmitresponse()",
+      "id": "scripts_interceptor_handlesubmitresponse"
+    },
+    {
+      "label": "handleSolutionPostBody()",
+      "file_type": "code",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "handlesolutionpostbody()",
+      "id": "scripts_interceptor_handlesolutionpostbody"
+    },
+    {
+      "label": ".open()",
+      "file_type": "code",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L60",
+      "_origin": "ast",
+      "community": 14,
+      "norm_label": ".open()",
+      "id": "scripts_interceptor_xmlhttprequest_open"
+    },
+    {
+      "label": ".send()",
+      "file_type": "code",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L66",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": ".send()",
+      "id": "scripts_interceptor_xmlhttprequest_send"
+    },
+    {
+      "label": "interceptorLoader.js",
+      "file_type": "code",
+      "source_file": "scripts/interceptorLoader.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 13,
+      "norm_label": "interceptorloader.js",
+      "id": "scripts_interceptorloader"
+    },
+    {
+      "label": "script",
+      "file_type": "code",
+      "source_file": "scripts/interceptorLoader.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 13,
+      "norm_label": "script",
+      "id": "scripts_interceptorloader_script"
+    },
+    {
+      "label": "readmeTopics.js",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/readmeTopics.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "readmetopics.js",
+      "id": "leetcode_readmetopics"
+    },
+    {
+      "label": "appendProblemToReadme()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/readmeTopics.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "appendproblemtoreadme()",
+      "id": "leetcode_readmetopics_appendproblemtoreadme"
+    },
+    {
+      "label": "sortTopicsInReadme()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/readmeTopics.js",
+      "source_location": "L86",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "sorttopicsinreadme()",
+      "id": "leetcode_readmetopics_sorttopicsinreadme"
+    },
+    {
+      "label": "submitBtn.js",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "submitbtn.js",
+      "id": "leetcode_submitbtn"
+    },
+    {
+      "label": "getSubmissionPageBtns()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "getsubmissionpagebtns()",
+      "id": "leetcode_submitbtn_getsubmissionpagebtns"
+    },
+    {
+      "label": "createToolTip()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "createtooltip()",
+      "id": "leetcode_submitbtn_createtooltip"
+    },
+    {
+      "label": "createGitIcon()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "creategiticon()",
+      "id": "leetcode_submitbtn_creategiticon"
+    },
+    {
+      "label": "isValidSuffix()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L45",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "isvalidsuffix()",
+      "id": "leetcode_submitbtn_isvalidsuffix"
+    },
+    {
+      "label": "addManualSubmitBtn()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L57",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "addmanualsubmitbtn()",
+      "id": "leetcode_submitbtn_addmanualsubmitbtn"
+    },
+    {
+      "label": "setupManualSubmitBtn()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L106",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "setupmanualsubmitbtn()",
+      "id": "leetcode_submitbtn_setupmanualsubmitbtn"
+    },
+    {
+      "label": "versions.js",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "versions.js",
+      "id": "leetcode_versions"
+    },
+    {
+      "label": "LeetCodeV1()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "leetcodev1()",
+      "id": "leetcode_versions_leetcodev1"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".init()",
+      "id": "leetcode_versions_leetcodev1_init"
+    },
+    {
+      "label": ".findCode()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".findcode()",
+      "id": "leetcode_versions_leetcodev1_findcode"
+    },
+    {
+      "label": ".getLanguageExtension()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L100",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getlanguageextension()",
+      "id": "leetcode_versions_leetcodev1_getlanguageextension"
+    },
+    {
+      "label": ".getLanguageName()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L117",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getlanguagename()",
+      "id": "leetcode_versions_leetcodev1_getlanguagename"
+    },
+    {
+      "label": ".getNotesIfAny()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L135",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getnotesifany()",
+      "id": "leetcode_versions_leetcodev1_getnotesifany"
+    },
+    {
+      "label": ".getProblemNameSlug()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L162",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getproblemnameslug()",
+      "id": "leetcode_versions_leetcodev1_getproblemnameslug"
+    },
+    {
+      "label": ".getSuccessStateAndUpdate()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L180",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getsuccessstateandupdate()",
+      "id": "leetcode_versions_leetcodev1_getsuccessstateandupdate"
+    },
+    {
+      "label": ".parseStats()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L207",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsestats()",
+      "id": "leetcode_versions_leetcodev1_parsestats"
+    },
+    {
+      "label": ".parseQuestion()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L220",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsequestion()",
+      "id": "leetcode_versions_leetcodev1_parsequestion"
+    },
+    {
+      "label": ".startSpinner()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L270",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".startspinner()",
+      "id": "leetcode_versions_leetcodev1_startspinner"
+    },
+    {
+      "label": ".injectSpinnerStyle()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L285",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".injectspinnerstyle()",
+      "id": "leetcode_versions_leetcodev1_injectspinnerstyle"
+    },
+    {
+      "label": ".insertToAnchorElement()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L291",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".inserttoanchorelement()",
+      "id": "leetcode_versions_leetcodev1_inserttoanchorelement"
+    },
+    {
+      "label": ".markUploaded()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L313",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".markuploaded()",
+      "id": "leetcode_versions_leetcodev1_markuploaded"
+    },
+    {
+      "label": ".markUploadFailed()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L322",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".markuploadfailed()",
+      "id": "leetcode_versions_leetcodev1_markuploadfailed"
+    },
+    {
+      "label": "LeetCodeV2()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L331",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "leetcodev2()",
+      "id": "leetcode_versions_leetcodev2"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L339",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".init()",
+      "id": "leetcode_versions_leetcodev2_init"
+    },
+    {
+      "label": ".findCode()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L385",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".findcode()",
+      "id": "leetcode_versions_leetcodev2_findcode"
+    },
+    {
+      "label": ".getCode()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L393",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getcode()",
+      "id": "leetcode_versions_leetcodev2_getcode"
+    },
+    {
+      "label": ".getLanguageExtension()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L406",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getlanguageextension()",
+      "id": "leetcode_versions_leetcodev2_getlanguageextension"
+    },
+    {
+      "label": ".getLanguageName()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L425",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getlanguagename()",
+      "id": "leetcode_versions_leetcodev2_getlanguagename"
+    },
+    {
+      "label": ".getNotesIfAny()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L437",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getnotesifany()",
+      "id": "leetcode_versions_leetcodev2_getnotesifany"
+    },
+    {
+      "label": ".getProblemNameSlug()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L438",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getproblemnameslug()",
+      "id": "leetcode_versions_leetcodev2_getproblemnameslug"
+    },
+    {
+      "label": ".getSuccessStateAndUpdate()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L444",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getsuccessstateandupdate()",
+      "id": "leetcode_versions_leetcodev2_getsuccessstateandupdate"
+    },
+    {
+      "label": ".parseStats()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L453",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsestats()",
+      "id": "leetcode_versions_leetcodev2_parsestats"
+    },
+    {
+      "label": ".parseQuestion()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L479",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsequestion()",
+      "id": "leetcode_versions_leetcodev2_parsequestion"
+    },
+    {
+      "label": ".parseQuestionTitle()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L497",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsequestiontitle()",
+      "id": "leetcode_versions_leetcodev2_parsequestiontitle"
+    },
+    {
+      "label": ".parseQuestionDescription()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L514",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsequestiondescription()",
+      "id": "leetcode_versions_leetcodev2_parsequestiondescription"
+    },
+    {
+      "label": ".parseDifficulty()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L525",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".parsedifficulty()",
+      "id": "leetcode_versions_leetcodev2_parsedifficulty"
+    },
+    {
+      "label": ".startSpinner()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L537",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".startspinner()",
+      "id": "leetcode_versions_leetcodev2_startspinner"
+    },
+    {
+      "label": ".injectSpinnerStyle()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L547",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".injectspinnerstyle()",
+      "id": "leetcode_versions_leetcodev2_injectspinnerstyle"
+    },
+    {
+      "label": ".insertToAnchorElement()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L552",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".inserttoanchorelement()",
+      "id": "leetcode_versions_leetcodev2_inserttoanchorelement"
+    },
+    {
+      "label": ".markUploaded()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L577",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".markuploaded()",
+      "id": "leetcode_versions_leetcodev2_markuploaded"
+    },
+    {
+      "label": ".markUploadFailed()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/versions.js",
+      "source_location": "L585",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".markuploadfailed()",
+      "id": "leetcode_versions_leetcodev2_markuploadfailed"
+    },
+    {
+      "label": "popup.js",
+      "file_type": "code",
+      "source_file": "scripts/popup.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "popup.js",
+      "id": "scripts_popup"
+    },
+    {
+      "label": "api",
+      "file_type": "code",
+      "source_file": "scripts/popup.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "api",
+      "id": "scripts_popup_api"
+    },
+    {
+      "label": "renderStats()",
+      "file_type": "code",
+      "source_file": "scripts/popup.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "renderstats()",
+      "id": "scripts_popup_renderstats"
+    },
+    {
+      "label": "pushConfigToRepo()",
+      "file_type": "code",
+      "source_file": "scripts/popup.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "pushconfigtorepo()",
+      "id": "scripts_popup_pushconfigtorepo"
+    },
+    {
       "label": "readmeTopics.spec.js",
       "file_type": "code",
       "source_file": "spec/readmeTopics.spec.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "spec_readmetopics_spec",
       "community": 1,
-      "norm_label": "readmetopics.spec.js"
+      "norm_label": "readmetopics.spec.js",
+      "id": "spec_readmetopics_spec"
     },
     {
       "label": "util.spec.js",
@@ -1382,9 +1442,9 @@
       "source_file": "spec/util.spec.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "spec_util_spec",
       "community": 19,
-      "norm_label": "util.spec.js"
+      "norm_label": "util.spec.js",
+      "id": "spec_util_spec"
     },
     {
       "label": "webpack.config.js",
@@ -1392,9 +1452,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "webpack_config",
       "community": 8,
-      "norm_label": "webpack.config.js"
+      "norm_label": "webpack.config.js",
+      "id": "webpack_config"
     },
     {
       "label": "__filename",
@@ -1402,9 +1462,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "webpack_config_filename",
       "community": 8,
-      "norm_label": "__filename"
+      "norm_label": "__filename",
+      "id": "webpack_config_filename"
     },
     {
       "label": "__dirname",
@@ -1412,9 +1472,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "webpack_config_dirname",
       "community": 8,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "id": "webpack_config_dirname"
     },
     {
       "label": "entries",
@@ -1422,9 +1482,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "webpack_config_entries",
       "community": 8,
-      "norm_label": "entries"
+      "norm_label": "entries",
+      "id": "webpack_config_entries"
     },
     {
       "label": "ignore",
@@ -1432,9 +1492,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "webpack_config_ignore",
       "community": 8,
-      "norm_label": "ignore"
+      "norm_label": "ignore",
+      "id": "webpack_config_ignore"
     },
     {
       "label": "folderIgnore",
@@ -1442,9 +1502,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "webpack_config_folderignore",
       "community": 8,
-      "norm_label": "folderignore"
+      "norm_label": "folderignore",
+      "id": "webpack_config_folderignore"
     },
     {
       "label": "manifestTransform()",
@@ -1452,9 +1512,9 @@
       "source_file": "webpack.config.js",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "webpack_config_manifesttransform",
       "community": 8,
-      "norm_label": "manifesttransform()"
+      "norm_label": "manifesttransform()",
+      "id": "webpack_config_manifesttransform"
     },
     {
       "label": "package.json",
@@ -2424,9 +2484,42 @@
       "source_file": "scripts/background.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_background",
-      "target": "leetcode_util",
-      "confidence_score": 1.0
+      "target": "leetcode_util"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_getbrowser"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_pushconfigtorepo"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_syncconfigfromrepo"
     },
     {
       "relation": "imports",
@@ -2436,40 +2529,7 @@
       "source_location": "L1",
       "weight": 1.0,
       "source": "scripts_background",
-      "target": "leetcode_util_getbrowser",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_pushconfigtorepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_syncconfigfromrepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_synccountsfromrepo",
+      "target": "leetcode_util_syncstatsfromrepo",
       "confidence_score": 1.0
     },
     {
@@ -2478,120 +2538,9 @@
       "source_file": "scripts/background.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_background",
-      "target": "scripts_background_api",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_finddifficulty"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_findgfglanguage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_findtitle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L58",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_getcode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_getproblemstatement"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L94",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_gfgloader"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/gfg.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_gfg",
-      "target": "scripts_gfg_tokebabcase"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "scripts_interceptor",
-      "target": "scripts_interceptor_handlesolutionpostbody",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "scripts_interceptor",
-      "target": "scripts_interceptor_handlesubmitresponse",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/interceptor.js",
-      "source_location": "L69",
-      "weight": 1.0,
-      "source": "scripts_interceptor_xmlhttprequest_send",
-      "target": "scripts_interceptor_handlesolutionpostbody",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/interceptorLoader.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "scripts_interceptorloader",
-      "target": "scripts_interceptorloader_script",
-      "confidence_score": 1.0
+      "target": "scripts_background_api"
     },
     {
       "relation": "contains",
@@ -2649,9 +2598,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L384",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_leetcode_getcustomcommitmessage",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_getcustomcommitmessage"
     },
     {
       "relation": "contains",
@@ -2669,9 +2618,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L431",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_leetcode_getlastcommitmessage",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_getlastcommitmessage"
     },
     {
       "relation": "contains",
@@ -2689,9 +2638,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L471",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_leetcode_handlesolutionpost",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_handlesolutionpost"
     },
     {
       "relation": "contains",
@@ -2729,9 +2678,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L634",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_leetcode_listenforautosubmit",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_listenforautosubmit"
     },
     {
       "relation": "contains",
@@ -2749,9 +2698,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L398",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_leetcode_questionslugtoproblemname",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_questionslugtoproblemname"
     },
     {
       "relation": "contains",
@@ -2876,9 +2825,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_util_addleadingzeros",
-      "confidence_score": 1.0
+      "target": "leetcode_util_addleadingzeros"
     },
     {
       "relation": "imports",
@@ -2887,9 +2836,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_util_buildproblempath",
-      "confidence_score": 1.0
+      "target": "leetcode_util_buildproblempath"
     },
     {
       "relation": "imports",
@@ -2898,9 +2847,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_util_converttoslug",
-      "confidence_score": 1.0
+      "target": "leetcode_util_converttoslug"
     },
     {
       "relation": "imports",
@@ -2964,9 +2913,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_util_gettimestamp",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettimestamp"
     },
     {
       "relation": "imports",
@@ -2975,9 +2924,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_util_gettodaysdate",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettodaysdate"
     },
     {
       "relation": "imports",
@@ -3019,8 +2968,19 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode",
-      "target": "leetcode_util_parsecustomcommitmessage",
+      "target": "leetcode_util_parsecustomcommitmessage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/leetcode.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "leetcode_leetcode",
+      "target": "leetcode_util_pushstatstorepo",
       "confidence_score": 1.0
     },
     {
@@ -3107,9 +3067,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L481",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_handlesolutionpost",
-      "target": "leetcode_leetcode_encode",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_encode"
     },
     {
       "relation": "calls",
@@ -3195,9 +3155,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L481",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_handlesolutionpost",
-      "target": "leetcode_leetcode_uploadgitwith409retry",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_uploadgitwith409retry"
     },
     {
       "relation": "calls",
@@ -3272,9 +3232,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L391",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_getcustomcommitmessage",
-      "target": "leetcode_util_parsecustomcommitmessage",
-      "confidence_score": 1.0
+      "target": "leetcode_util_parsecustomcommitmessage"
     },
     {
       "relation": "calls",
@@ -3283,9 +3243,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L478",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_handlesolutionpost",
-      "target": "leetcode_leetcode_questionslugtoproblemname",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_questionslugtoproblemname"
     },
     {
       "relation": "calls",
@@ -3294,9 +3254,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L415",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_questionslugtoproblemname",
-      "target": "leetcode_util_addleadingzeros",
-      "confidence_score": 1.0
+      "target": "leetcode_util_addleadingzeros"
     },
     {
       "relation": "calls",
@@ -3305,9 +3265,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L420",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_questionslugtoproblemname",
-      "target": "leetcode_util_converttoslug",
-      "confidence_score": 1.0
+      "target": "leetcode_util_converttoslug"
     },
     {
       "relation": "calls",
@@ -3316,9 +3276,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L479",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_handlesolutionpost",
-      "target": "leetcode_leetcode_getlastcommitmessage",
-      "confidence_score": 1.0
+      "target": "leetcode_leetcode_getlastcommitmessage"
     },
     {
       "relation": "calls",
@@ -3327,9 +3287,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L551",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_loader",
-      "target": "leetcode_util_buildproblempath",
-      "confidence_score": 1.0
+      "target": "leetcode_util_buildproblempath"
     },
     {
       "relation": "calls",
@@ -3338,9 +3298,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L557",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_loader",
-      "target": "leetcode_util_gettimestamp",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettimestamp"
     },
     {
       "relation": "calls",
@@ -3349,9 +3309,9 @@
       "source_file": "scripts/leetcode/leetcode.js",
       "source_location": "L587",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_leetcode_loader",
-      "target": "leetcode_util_gettodaysdate",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettodaysdate"
     },
     {
       "relation": "method",
@@ -3364,26 +3324,6 @@
       "target": "leetcode_leetcode_leethubnetworkerror_constructor"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/readmeTopics.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_readmetopics",
-      "target": "leetcode_readmetopics_appendproblemtoreadme"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/readmeTopics.js",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_readmetopics",
-      "target": "leetcode_readmetopics_sorttopicsinreadme"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3395,110 +3335,6 @@
       "target": "leetcode_util"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/readmeTopics.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_readmetopics",
-      "target": "leetcode_util_leethuberror"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "spec/readmeTopics.spec.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "spec_readmetopics_spec",
-      "target": "leetcode_readmetopics"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "spec/readmeTopics.spec.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "spec_readmetopics_spec",
-      "target": "leetcode_readmetopics_appendproblemtoreadme"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "spec/readmeTopics.spec.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "spec_readmetopics_spec",
-      "target": "leetcode_readmetopics_sorttopicsinreadme"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_addmanualsubmitbtn"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_creategiticon"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_createtooltip"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_getsubmissionpagebtns"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_isvalidsuffix",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_setupmanualsubmitbtn"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3508,50 +3344,6 @@
       "confidence_score": 1.0,
       "source": "leetcode_submitbtn",
       "target": "leetcode_util"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_util_getbrowser"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn_addmanualsubmitbtn",
-      "target": "leetcode_submitbtn_getsubmissionpagebtns"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "leetcode_submitbtn_addmanualsubmitbtn",
-      "target": "leetcode_submitbtn_createtooltip",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "leetcode_submitbtn_addmanualsubmitbtn",
-      "target": "leetcode_submitbtn_creategiticon",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3579,9 +3371,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_buildproblempath",
-      "confidence_score": 1.0
+      "target": "leetcode_util_buildproblempath"
     },
     {
       "relation": "contains",
@@ -3592,6 +3384,16 @@
       "confidence_score": 1.0,
       "source": "leetcode_util",
       "target": "leetcode_util_checkelem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L290",
+      "weight": 1.0,
+      "source": "leetcode_util",
+      "target": "leetcode_util_computestatsfromreadmes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3639,9 +3441,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L272",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_fetchrepocontent",
-      "confidence_score": 1.0
+      "target": "leetcode_util_fetchrepocontent"
     },
     {
       "relation": "contains",
@@ -3679,8 +3481,18 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L347",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_getrepoconfig",
+      "target": "leetcode_util_getrepoconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "leetcode_util",
+      "target": "leetcode_util_getrepostats",
       "confidence_score": 1.0
     },
     {
@@ -3689,9 +3501,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_gettimestamp",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettimestamp"
     },
     {
       "relation": "contains",
@@ -3699,9 +3511,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_gettodaysdate",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettodaysdate"
     },
     {
       "relation": "contains",
@@ -3769,9 +3581,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_parsecustomcommitmessage",
-      "confidence_score": 1.0
+      "target": "leetcode_util_parsecustomcommitmessage"
     },
     {
       "relation": "contains",
@@ -3779,8 +3591,18 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L405",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_pushconfigtorepo",
+      "target": "leetcode_util_pushconfigtorepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L417",
+      "weight": 1.0,
+      "source": "leetcode_util",
+      "target": "leetcode_util_pushstatstorepo",
       "confidence_score": 1.0
     },
     {
@@ -3789,8 +3611,38 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L362",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_putrepoconfig",
+      "target": "leetcode_util_putrepoconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L335",
+      "weight": 1.0,
+      "source": "leetcode_util",
+      "target": "leetcode_util_putrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L393",
+      "weight": 1.0,
+      "source": "leetcode_util",
+      "target": "leetcode_util_recomputestatsfromrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L353",
+      "weight": 1.0,
+      "source": "leetcode_util",
+      "target": "leetcode_util_savelocalstats",
       "confidence_score": 1.0
     },
     {
@@ -3799,9 +3651,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L337",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_settings_keys",
-      "confidence_score": 1.0
+      "target": "leetcode_util_settings_keys"
     },
     {
       "relation": "contains",
@@ -3809,18 +3661,18 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L385",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_syncconfigfromrepo",
-      "confidence_score": 1.0
+      "target": "leetcode_util_syncconfigfromrepo"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L289",
+      "source_location": "L367",
       "weight": 1.0,
       "source": "leetcode_util",
-      "target": "leetcode_util_synccountsfromrepo",
+      "target": "leetcode_util_syncstatsfromrepo",
       "confidence_score": 1.0
     },
     {
@@ -3879,6 +3731,17 @@
       "target": "leetcode_util_languages"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/readmeTopics.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_readmetopics",
+      "target": "leetcode_util_leethuberror"
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "scripts/leetcode/util.js",
@@ -3895,9 +3758,20 @@
       "source_file": "scripts/leetcode/versions.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_versions",
-      "target": "leetcode_util_leethuberror",
-      "confidence_score": 1.0
+      "target": "leetcode_util_leethuberror"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_util_getbrowser"
     },
     {
       "relation": "calls",
@@ -3906,7 +3780,40 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L406",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_pushconfigtorepo",
+      "target": "leetcode_util_getbrowser"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L418",
+      "weight": 1.0,
+      "source": "leetcode_util_pushstatstorepo",
+      "target": "leetcode_util_getbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L394",
+      "weight": 1.0,
+      "source": "leetcode_util_recomputestatsfromrepo",
+      "target": "leetcode_util_getbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L354",
+      "weight": 1.0,
+      "source": "leetcode_util_savelocalstats",
       "target": "leetcode_util_getbrowser",
       "confidence_score": 1.0
     },
@@ -3917,18 +3824,18 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L386",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_syncconfigfromrepo",
-      "target": "leetcode_util_getbrowser",
-      "confidence_score": 1.0
+      "target": "leetcode_util_getbrowser"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L290",
+      "source_location": "L368",
       "weight": 1.0,
-      "source": "leetcode_util_synccountsfromrepo",
+      "source": "leetcode_util_syncstatsfromrepo",
       "target": "leetcode_util_getbrowser",
       "confidence_score": 1.0
     },
@@ -4005,9 +3912,9 @@
       "source_file": "spec/util.spec.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "spec_util_spec",
-      "target": "leetcode_util_buildproblempath",
-      "confidence_score": 1.0
+      "target": "leetcode_util_buildproblempath"
     },
     {
       "relation": "imports",
@@ -4016,9 +3923,9 @@
       "source_file": "spec/util.spec.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "spec_util_spec",
-      "target": "leetcode_util_parsecustomcommitmessage",
-      "confidence_score": 1.0
+      "target": "leetcode_util_parsecustomcommitmessage"
     },
     {
       "relation": "calls",
@@ -4027,9 +3934,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_gettimestamp",
-      "target": "leetcode_util_gettodaysdate",
-      "confidence_score": 1.0
+      "target": "leetcode_util_gettodaysdate"
     },
     {
       "relation": "imports",
@@ -4289,10 +4196,120 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/leetcode/util.js",
-      "source_location": "L319",
+      "source_location": "L312",
       "weight": 1.0,
-      "source": "leetcode_util_synccountsfromrepo",
+      "source": "leetcode_util_computestatsfromreadmes",
       "target": "leetcode_util_fetchrepocontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L403",
+      "weight": 1.0,
+      "source": "leetcode_util_recomputestatsfromrepo",
+      "target": "leetcode_util_computestatsfromreadmes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L381",
+      "weight": 1.0,
+      "source": "leetcode_util_syncstatsfromrepo",
+      "target": "leetcode_util_computestatsfromreadmes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L429",
+      "weight": 1.0,
+      "source": "leetcode_util_pushstatstorepo",
+      "target": "leetcode_util_getrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L404",
+      "weight": 1.0,
+      "source": "leetcode_util_recomputestatsfromrepo",
+      "target": "leetcode_util_getrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L375",
+      "weight": 1.0,
+      "source": "leetcode_util_syncstatsfromrepo",
+      "target": "leetcode_util_getrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L430",
+      "weight": 1.0,
+      "source": "leetcode_util_pushstatstorepo",
+      "target": "leetcode_util_putrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L406",
+      "weight": 1.0,
+      "source": "leetcode_util_recomputestatsfromrepo",
+      "target": "leetcode_util_putrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L382",
+      "weight": 1.0,
+      "source": "leetcode_util_syncstatsfromrepo",
+      "target": "leetcode_util_putrepostats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L407",
+      "weight": 1.0,
+      "source": "leetcode_util_recomputestatsfromrepo",
+      "target": "leetcode_util_savelocalstats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/util.js",
+      "source_location": "L377",
+      "weight": 1.0,
+      "source": "leetcode_util_syncstatsfromrepo",
+      "target": "leetcode_util_savelocalstats",
       "confidence_score": 1.0
     },
     {
@@ -4303,7 +4320,7 @@
       "source_location": "L1",
       "weight": 1.0,
       "source": "scripts_welcome",
-      "target": "leetcode_util_synccountsfromrepo",
+      "target": "leetcode_util_syncstatsfromrepo",
       "confidence_score": 1.0
     },
     {
@@ -4314,7 +4331,18 @@
       "source_location": "L149",
       "weight": 1.0,
       "source": "scripts_welcome_linkrepo",
-      "target": "leetcode_util_synccountsfromrepo",
+      "target": "leetcode_util_syncstatsfromrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "leetcode_util_recomputestatsfromrepo",
       "confidence_score": 1.0
     },
     {
@@ -4324,9 +4352,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_pushconfigtorepo",
-      "target": "leetcode_util_getrepoconfig",
-      "confidence_score": 1.0
+      "target": "leetcode_util_getrepoconfig"
     },
     {
       "relation": "calls",
@@ -4335,9 +4363,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L393",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_syncconfigfromrepo",
-      "target": "leetcode_util_getrepoconfig",
-      "confidence_score": 1.0
+      "target": "leetcode_util_getrepoconfig"
     },
     {
       "relation": "calls",
@@ -4346,9 +4374,9 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L415",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_pushconfigtorepo",
-      "target": "leetcode_util_putrepoconfig",
-      "confidence_score": 1.0
+      "target": "leetcode_util_putrepoconfig"
     },
     {
       "relation": "calls",
@@ -4357,9 +4385,505 @@
       "source_file": "scripts/leetcode/util.js",
       "source_location": "L400",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_util_syncconfigfromrepo",
-      "target": "leetcode_util_putrepoconfig",
-      "confidence_score": 1.0
+      "target": "leetcode_util_putrepoconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_api"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L292",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_checkmodetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_createrepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_getcreateerrorstring"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_getlinkerrorstring"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_handlelinkrepoerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_handlerepocreateerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_linkrepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_option"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_renderstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_repositoryname"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L342",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_showauthmode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L206",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_unlinkrepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_validatetoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/welcome.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "scripts_welcome_option",
+      "target": "scripts_jquery_3_3_1_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/welcome.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scripts_welcome_repositoryname",
+      "target": "scripts_jquery_3_3_1_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome_handlerepocreateerror",
+      "target": "scripts_welcome_getcreateerrorstring"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome_createrepo",
+      "target": "scripts_welcome_handlerepocreateerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/welcome.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "scripts_welcome_handlerepocreateerror",
+      "target": "scripts_jquery_3_3_1_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/welcome.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "scripts_welcome_createrepo",
+      "target": "scripts_jquery_3_3_1_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome_handlelinkrepoerror",
+      "target": "scripts_welcome_getlinkerrorstring"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/welcome.js",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "scripts_welcome_handlelinkrepoerror",
+      "target": "scripts_jquery_3_3_1_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.js",
+      "source_location": "L157",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_welcome_linkrepo",
+      "target": "scripts_welcome_handlelinkrepoerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_finddifficulty"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_findgfglanguage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_findtitle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_getcode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_getproblemstatement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_gfgloader"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/gfg.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_gfg",
+      "target": "scripts_gfg_tokebabcase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_interceptor",
+      "target": "scripts_interceptor_handlesolutionpostbody"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_interceptor",
+      "target": "scripts_interceptor_handlesubmitresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/interceptor.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_interceptor_xmlhttprequest_send",
+      "target": "scripts_interceptor_handlesolutionpostbody"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/interceptorLoader.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_interceptorloader",
+      "target": "scripts_interceptorloader_script"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/readmeTopics.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_readmetopics",
+      "target": "leetcode_readmetopics_appendproblemtoreadme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/readmeTopics.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_readmetopics",
+      "target": "leetcode_readmetopics_sorttopicsinreadme"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "spec/readmeTopics.spec.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "spec_readmetopics_spec",
+      "target": "leetcode_readmetopics"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "spec/readmeTopics.spec.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "spec_readmetopics_spec",
+      "target": "leetcode_readmetopics_appendproblemtoreadme"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "spec/readmeTopics.spec.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "spec_readmetopics_spec",
+      "target": "leetcode_readmetopics_sorttopicsinreadme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_addmanualsubmitbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_creategiticon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_createtooltip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_getsubmissionpagebtns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_isvalidsuffix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_setupmanualsubmitbtn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn_addmanualsubmitbtn",
+      "target": "leetcode_submitbtn_getsubmissionpagebtns"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn_addmanualsubmitbtn",
+      "target": "leetcode_submitbtn_createtooltip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn_addmanualsubmitbtn",
+      "target": "leetcode_submitbtn_creategiticon"
     },
     {
       "relation": "contains",
@@ -4407,9 +4931,9 @@
       "source_file": "scripts/leetcode/versions.js",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_versions_leetcodev1",
-      "target": "leetcode_versions_leetcodev1_getlanguagename",
-      "confidence_score": 1.0
+      "target": "leetcode_versions_leetcodev1_getlanguagename"
     },
     {
       "relation": "method",
@@ -4579,9 +5103,9 @@
       "source_file": "scripts/leetcode/versions.js",
       "source_location": "L425",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leetcode_versions_leetcodev2",
-      "target": "leetcode_versions_leetcodev2_getlanguagename",
-      "confidence_score": 1.0
+      "target": "leetcode_versions_leetcodev2_getlanguagename"
     },
     {
       "relation": "method",
@@ -4773,9 +5297,9 @@
       "source_file": "scripts/popup.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_popup",
-      "target": "scripts_popup_pushconfigtorepo",
-      "confidence_score": 1.0
+      "target": "scripts_popup_pushconfigtorepo"
     },
     {
       "relation": "contains",
@@ -4783,248 +5307,9 @@
       "source_file": "scripts/popup.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_popup",
-      "target": "scripts_popup_renderstats",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_api"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L292",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_checkmodetype"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_createrepo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_getcreateerrorstring"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L122",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_getlinkerrorstring"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L132",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_handlelinkrepoerror"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_handlerepocreateerror"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L145",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_linkrepo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_option"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_renderstats",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_repositoryname"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L342",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_showauthmode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L206",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_unlinkrepo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome",
-      "target": "scripts_welcome_validatetoken"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "scripts/welcome.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "scripts_welcome_option",
-      "target": "scripts_jquery_3_3_1_min"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "scripts/welcome.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "scripts_welcome_repositoryname",
-      "target": "scripts_jquery_3_3_1_min"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome_handlerepocreateerror",
-      "target": "scripts_welcome_getcreateerrorstring"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L104",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome_createrepo",
-      "target": "scripts_welcome_handlerepocreateerror"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "scripts/welcome.js",
-      "source_location": "L79",
-      "weight": 1.0,
-      "source": "scripts_welcome_handlerepocreateerror",
-      "target": "scripts_jquery_3_3_1_min"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "scripts/welcome.js",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "scripts_welcome_createrepo",
-      "target": "scripts_jquery_3_3_1_min"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L134",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome_handlelinkrepoerror",
-      "target": "scripts_welcome_getlinkerrorstring"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "scripts/welcome.js",
-      "source_location": "L133",
-      "weight": 1.0,
-      "source": "scripts_welcome_handlelinkrepoerror",
-      "target": "scripts_jquery_3_3_1_min"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/welcome.js",
-      "source_location": "L157",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_welcome_linkrepo",
-      "target": "scripts_welcome_handlelinkrepoerror"
+      "target": "scripts_popup_renderstats"
     },
     {
       "relation": "contains",
@@ -6670,5 +6955,5 @@
       "source_file": ".github/ISSUE_TEMPLATE/config.yml"
     }
   ],
-  "built_at_commit": "93635c626d2a8bc509c91e494d1a66af6097b29a"
+  "built_at_commit": "b2e5e929687b53b5832e17dc9a6d052063cdfb7d"
 }

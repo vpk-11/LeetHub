@@ -1,16 +1,16 @@
 # Graph Report - leethub  (2026-08-22)
 
 ## Corpus Check
-- 23 files · ~283,371 words
+- 23 files · ~283,883 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 235 nodes · 403 edges · 16 communities (12 shown, 4 thin omitted)
+- 241 nodes · 424 edges · 16 communities (12 shown, 4 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 28 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `93635c62`
+- Built from commit: `b2e5e929`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -35,12 +35,12 @@
 2. `LeetCodeV2()` - 20 edges
 3. `LeetCodeV1()` - 17 edges
 4. `checkElem()` - 14 edges
-5. `getBrowser()` - 9 edges
-6. `scripts` - 9 edges
-7. `Te()` - 9 edges
-8. `updateReadmeTopicTagsWithProblem()` - 8 edges
-9. `getDifficulty()` - 7 edges
-10. `oe()` - 7 edges
+5. `getBrowser()` - 12 edges
+6. `syncStatsFromRepo()` - 9 edges
+7. `scripts` - 9 edges
+8. `Te()` - 9 edges
+9. `updateReadmeTopicTagsWithProblem()` - 8 edges
+10. `getDifficulty()` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `option()` --calls--> `$()`  [INFERRED]
@@ -68,8 +68,8 @@ Cohesion: 0.07
 Nodes (46): $(), a(), ae(), be(), C(), ce(), ct(), de() (+38 more)
 
 ### Community 1 - "LeetCode Submission Core"
-Cohesion: 0.13
-Nodes (22): api, createRepoReadme(), decode(), encode(), getAndInitializeStats(), getGitHubFile(), getLastCommitMessage(), getPath() (+14 more)
+Cohesion: 0.12
+Nodes (25): api, createRepoReadme(), decode(), encode(), getAndInitializeStats(), getGitHubFile(), getLastCommitMessage(), getPath() (+17 more)
 
 ### Community 2 - "Stats and Version Utilities"
 Cohesion: 0.07
@@ -100,11 +100,11 @@ Cohesion: 0.67
 Nodes (3): Bug Report Issue Template (Markdown), Bug Report Form (YAML issue form), Issue Template Config
 
 ### Community 19 - "Community 19"
-Cohesion: 0.14
-Nodes (19): getCustomCommitMessage(), loader(), buildProblemPath(), fetchRepoContent(), getBrowser(), getRepoConfig(), getTimestamp(), getTodaysDate() (+11 more)
+Cohesion: 0.15
+Nodes (22): getCustomCommitMessage(), buildProblemPath(), computeStatsFromReadmes(), fetchRepoContent(), getBrowser(), getRepoConfig(), getRepoStats(), isObject() (+14 more)
 
 ## Knowledge Gaps
-- **41 isolated node(s):** `api`, `gfgLoader`, `script`, `api`, `submitBtnObserver` (+36 more)
+- **41 isolated node(s):** `api`, `api`, `submitBtnObserver`, `SETTINGS_KEYS`, `api` (+36 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -112,16 +112,16 @@ Nodes (19): getCustomCommitMessage(), loader(), buildProblemPath(), fetchRepoCon
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `$()` connect `jQuery Vendor Bundle` to `Welcome/Setup Flow (welcome.js)`?**
-  _High betweenness centrality (0.298) - this node is a cross-community bridge._
-- **Why does `LeetCodeV2()` connect `Stats and Version Utilities` to `LeetCode Submission Core`?**
-  _High betweenness centrality (0.073) - this node is a cross-community bridge._
+  _High betweenness centrality (0.295) - this node is a cross-community bridge._
 - **Why does `getBrowser()` connect `Community 19` to `LeetCode Submission Core`, `Welcome/Setup Flow (welcome.js)`, `Submit Button DOM Hook`?**
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
+- **Why does `LeetCodeV2()` connect `Stats and Version Utilities` to `LeetCode Submission Core`?**
   _High betweenness centrality (0.072) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `$()` (e.g. with `createRepo()` and `handleLinkRepoError()`) actually correct?**
   _`$()` has 5 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `api`, `gfgLoader`, `script` to the rest of the system?**
+- **What connects `api`, `api`, `submitBtnObserver` to the rest of the system?**
   _42 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `jQuery Vendor Bundle` be split into smaller, more focused modules?**
   _Cohesion score 0.07393483709273183 - nodes in this community are weakly interconnected._
 - **Should `LeetCode Submission Core` be split into smaller, more focused modules?**
-  _Cohesion score 0.12807881773399016 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11693548387096774 - nodes in this community are weakly interconnected._
