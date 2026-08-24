@@ -37,14 +37,114 @@
   },
   "nodes": [
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "What is LeetHub?",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "readme_what_is_leethub",
+      "community": 4,
+      "norm_label": "what is leethub?"
+    },
+    {
+      "label": "Why LeetHub?",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "readme_why_leethub",
+      "community": 4,
+      "norm_label": "why leethub?"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "readme_features",
+      "community": 4,
+      "norm_label": "features"
+    },
+    {
+      "label": "How does LeetHub work?",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "readme_how_does_leethub_work",
+      "community": 4,
+      "norm_label": "how does leethub work?"
+    },
+    {
+      "label": "Features & Settings",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "readme_features_settings",
+      "community": 4,
+      "norm_label": "features & settings"
+    },
+    {
+      "label": "How to set up LeetHub for local development",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "readme_how_to_set_up_leethub_for_local_development",
+      "community": 4,
+      "norm_label": "how to set up leethub for local development"
+    },
+    {
+      "label": "pnpm Commands",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "readme_pnpm_commands",
+      "community": 4,
+      "norm_label": "pnpm commands"
+    },
+    {
+      "label": "Credits",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "readme_credits",
+      "community": 4,
+      "norm_label": "credits"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "readme_changelog",
+      "community": 4,
+      "norm_label": "changelog"
+    },
+    {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "package",
       "community": 3,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "package"
     },
     {
       "label": "name",
@@ -52,9 +152,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "package_name",
       "community": 3,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "package_name"
     },
     {
       "label": "version",
@@ -62,9 +162,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "package_version",
       "community": 3,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "package_version"
     },
     {
       "label": "private",
@@ -72,9 +172,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "package_private",
       "community": 3,
-      "norm_label": "private"
+      "norm_label": "private",
+      "id": "package_private"
     },
     {
       "label": "description",
@@ -82,9 +182,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "package_description",
       "community": 3,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "package_description"
     },
     {
       "label": "type",
@@ -92,9 +192,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "package_type",
       "community": 3,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "package_type"
     },
     {
       "label": "scripts",
@@ -102,9 +202,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "package_scripts",
       "community": 3,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "package_scripts"
     },
     {
       "label": "dev",
@@ -112,9 +212,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "package_scripts_dev",
       "community": 3,
-      "norm_label": "dev"
+      "norm_label": "dev",
+      "id": "package_scripts_dev"
     },
     {
       "label": "setup",
@@ -122,9 +222,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "package_scripts_setup",
       "community": 3,
-      "norm_label": "setup"
+      "norm_label": "setup",
+      "id": "package_scripts_setup"
     },
     {
       "label": "format",
@@ -132,9 +232,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "package_scripts_format",
       "community": 3,
-      "norm_label": "format"
+      "norm_label": "format",
+      "id": "package_scripts_format"
     },
     {
       "label": "format-test",
@@ -142,9 +242,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "package_scripts_format_test",
       "community": 3,
-      "norm_label": "format-test"
+      "norm_label": "format-test",
+      "id": "package_scripts_format_test"
     },
     {
       "label": "lint",
@@ -152,9 +252,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "package_scripts_lint",
       "community": 3,
-      "norm_label": "lint"
+      "norm_label": "lint",
+      "id": "package_scripts_lint"
     },
     {
       "label": "lint-test",
@@ -162,9 +262,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "package_scripts_lint_test",
       "community": 3,
-      "norm_label": "lint-test"
+      "norm_label": "lint-test",
+      "id": "package_scripts_lint_test"
     },
     {
       "label": "build",
@@ -172,9 +272,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "package_scripts_build",
       "community": 3,
-      "norm_label": "build"
+      "norm_label": "build",
+      "id": "package_scripts_build"
     },
     {
       "label": "test",
@@ -182,9 +282,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "package_scripts_test",
       "community": 3,
-      "norm_label": "test"
+      "norm_label": "test",
+      "id": "package_scripts_test"
     },
     {
       "label": "check-leaks",
@@ -192,9 +292,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "package_scripts_check_leaks",
       "community": 3,
-      "norm_label": "check-leaks"
+      "norm_label": "check-leaks",
+      "id": "package_scripts_check_leaks"
     },
     {
       "label": "devDependencies",
@@ -202,9 +302,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "package_devdependencies",
       "community": 3,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "package_devdependencies"
     },
     {
       "label": "@types/firefox-webext-browser",
@@ -212,9 +312,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "package_devdependencies_types_firefox_webext_browser",
       "community": 3,
-      "norm_label": "@types/firefox-webext-browser"
+      "norm_label": "@types/firefox-webext-browser",
+      "id": "package_devdependencies_types_firefox_webext_browser"
     },
     {
       "label": "chrome-types",
@@ -222,9 +322,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "package_devdependencies_chrome_types",
       "community": 3,
-      "norm_label": "chrome-types"
+      "norm_label": "chrome-types",
+      "id": "package_devdependencies_chrome_types"
     },
     {
       "label": "copy-webpack-plugin",
@@ -232,9 +332,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "package_devdependencies_copy_webpack_plugin",
       "community": 3,
-      "norm_label": "copy-webpack-plugin"
+      "norm_label": "copy-webpack-plugin",
+      "id": "package_devdependencies_copy_webpack_plugin"
     },
     {
       "label": "filemanager-webpack-plugin",
@@ -242,9 +342,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "package_devdependencies_filemanager_webpack_plugin",
       "community": 3,
-      "norm_label": "filemanager-webpack-plugin"
+      "norm_label": "filemanager-webpack-plugin",
+      "id": "package_devdependencies_filemanager_webpack_plugin"
     },
     {
       "label": "ignore-loader",
@@ -252,9 +352,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "package_devdependencies_ignore_loader",
       "community": 3,
-      "norm_label": "ignore-loader"
+      "norm_label": "ignore-loader",
+      "id": "package_devdependencies_ignore_loader"
     },
     {
       "label": "jasmine",
@@ -262,9 +362,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "package_devdependencies_jasmine",
       "community": 3,
-      "norm_label": "jasmine"
+      "norm_label": "jasmine",
+      "id": "package_devdependencies_jasmine"
     },
     {
       "label": "prettier",
@@ -272,9 +372,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "package_devdependencies_prettier",
       "community": 3,
-      "norm_label": "prettier"
+      "norm_label": "prettier",
+      "id": "package_devdependencies_prettier"
     },
     {
       "label": "webpack",
@@ -282,9 +382,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "package_devdependencies_webpack",
       "community": 3,
-      "norm_label": "webpack"
+      "norm_label": "webpack",
+      "id": "package_devdependencies_webpack"
     },
     {
       "label": "webpack-cli",
@@ -292,9 +392,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "package_devdependencies_webpack_cli",
       "community": 3,
-      "norm_label": "webpack-cli"
+      "norm_label": "webpack-cli",
+      "id": "package_devdependencies_webpack_cli"
     },
     {
       "label": "check-leaks.mjs",
@@ -302,9 +402,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "dev_check_leaks",
       "community": 5,
-      "norm_label": "check-leaks.mjs"
+      "norm_label": "check-leaks.mjs",
+      "id": "dev_check_leaks"
     },
     {
       "label": "PATTERNS",
@@ -312,9 +412,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "dev_check_leaks_patterns",
       "community": 5,
-      "norm_label": "patterns"
+      "norm_label": "patterns",
+      "id": "dev_check_leaks_patterns"
     },
     {
       "label": "EXCLUDED_PATHS",
@@ -322,9 +422,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "dev_check_leaks_excluded_paths",
       "community": 5,
-      "norm_label": "excluded_paths"
+      "norm_label": "excluded_paths",
+      "id": "dev_check_leaks_excluded_paths"
     },
     {
       "label": "addedLines()",
@@ -332,9 +432,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "dev_check_leaks_addedlines",
       "community": 5,
-      "norm_label": "addedlines()"
+      "norm_label": "addedlines()",
+      "id": "dev_check_leaks_addedlines"
     },
     {
       "label": "full",
@@ -342,9 +442,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "dev_check_leaks_full",
       "community": 5,
-      "norm_label": "full"
+      "norm_label": "full",
+      "id": "dev_check_leaks_full"
     },
     {
       "label": "emptyTree",
@@ -352,9 +452,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "dev_check_leaks_emptytree",
       "community": 5,
-      "norm_label": "emptytree"
+      "norm_label": "emptytree",
+      "id": "dev_check_leaks_emptytree"
     },
     {
       "label": "diff",
@@ -362,9 +462,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "dev_check_leaks_diff",
       "community": 5,
-      "norm_label": "diff"
+      "norm_label": "diff",
+      "id": "dev_check_leaks_diff"
     },
     {
       "label": "hits",
@@ -372,9 +472,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L50",
       "_origin": "ast",
-      "id": "dev_check_leaks_hits",
       "community": 5,
-      "norm_label": "hits"
+      "norm_label": "hits",
+      "id": "dev_check_leaks_hits"
     },
     {
       "label": "leetcode.js",
@@ -1145,96 +1245,6 @@
       "community": 19,
       "norm_label": "util.spec.js",
       "id": "spec_util_spec"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "readme.md",
-      "id": "readme"
-    },
-    {
-      "label": "What is LeetHub?",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "what is leethub?",
-      "id": "readme_what_is_leethub"
-    },
-    {
-      "label": "Why LeetHub?",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "why leethub?",
-      "id": "readme_why_leethub"
-    },
-    {
-      "label": "Features",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "features",
-      "id": "readme_features"
-    },
-    {
-      "label": "How does LeetHub work?",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "how does leethub work?",
-      "id": "readme_how_does_leethub_work"
-    },
-    {
-      "label": "How to set up LeetHub for local development",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "how to set up leethub for local development",
-      "id": "readme_how_to_set_up_leethub_for_local_development"
-    },
-    {
-      "label": "pnpm Commands",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "pnpm commands",
-      "id": "readme_pnpm_commands"
-    },
-    {
-      "label": "Credits",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L71",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "credits",
-      "id": "readme_credits"
-    },
-    {
-      "label": "Changelog",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L78",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "changelog",
-      "id": "readme_changelog"
     },
     {
       "label": "readmeTopics.spec.js",
@@ -2520,6 +2530,96 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_changelog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_credits"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_features"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_features_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_how_does_leethub_work"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_how_to_set_up_leethub_for_local_development"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_what_is_leethub"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_why_leethub"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_how_to_set_up_leethub_for_local_development",
+      "target": "readme_pnpm_commands"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
@@ -2603,9 +2703,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_check_leaks",
-      "confidence_score": 1.0
+      "target": "package_scripts_check_leaks"
     },
     {
       "relation": "contains",
@@ -2773,9 +2873,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_addedlines",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_addedlines"
     },
     {
       "relation": "contains",
@@ -2783,9 +2883,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_diff",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_diff"
     },
     {
       "relation": "contains",
@@ -2793,9 +2893,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_emptytree",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_emptytree"
     },
     {
       "relation": "contains",
@@ -2803,9 +2903,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_excluded_paths",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_excluded_paths"
     },
     {
       "relation": "contains",
@@ -2813,9 +2913,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_full",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_full"
     },
     {
       "relation": "contains",
@@ -2823,9 +2923,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_hits",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_hits"
     },
     {
       "relation": "contains",
@@ -2833,9 +2933,9 @@
       "source_file": "scripts/dev/check-leaks.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_check_leaks",
-      "target": "dev_check_leaks_patterns",
-      "confidence_score": 1.0
+      "target": "dev_check_leaks_patterns"
     },
     {
       "relation": "contains",
@@ -5395,86 +5495,6 @@
       "target": "scripts_jquery_3_3_1_min"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_changelog"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_credits"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_features"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_how_does_leethub_work"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_how_to_set_up_leethub_for_local_development"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_what_is_leethub"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_why_leethub"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_how_to_set_up_leethub_for_local_development",
-      "target": "readme_pnpm_commands"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -7431,5 +7451,5 @@
       "source_file": ".github/ISSUE_TEMPLATE/config.yml"
     }
   ],
-  "built_at_commit": "fc7af62bf61e0f42a775ef2985d7dc5adf41dda9"
+  "built_at_commit": "9be6e35c017ff3965f7316606fb7f44e4cbdd4e1"
 }

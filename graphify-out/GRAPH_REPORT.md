@@ -1,16 +1,16 @@
 # Graph Report - leethub  (2026-08-24)
 
 ## Corpus Check
-- 24 files · ~285,018 words
+- 24 files · ~285,330 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 247 nodes · 464 edges · 17 communities (11 shown, 6 thin omitted)
+- 248 nodes · 465 edges · 17 communities (11 shown, 6 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fc7af62b`
+- Built from commit: `9be6e35c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -81,8 +81,8 @@ Cohesion: 0.08
 Nodes (25): description, devDependencies, chrome-types, copy-webpack-plugin, filemanager-webpack-plugin, ignore-loader, jasmine, prettier (+17 more)
 
 ### Community 4 - "README and Popup UI"
-Cohesion: 0.22
-Nodes (8): Changelog, Credits, Features, How does LeetHub work?, How to set up LeetHub for local development, pnpm Commands, What is LeetHub?, Why LeetHub?
+Cohesion: 0.20
+Nodes (9): Changelog, Credits, Features, Features & Settings, How does LeetHub work?, How to set up LeetHub for local development, pnpm Commands, What is LeetHub? (+1 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.25
@@ -101,7 +101,7 @@ Cohesion: 0.14
 Nodes (32): archiveAndResetStats(), buildProblemPath(), computeStatsFromReadmes(), encodeJsonContent(), ensureRepoReadme(), escapeHtml(), fetchRepoContent(), getBrowser() (+24 more)
 
 ## Knowledge Gaps
-- **53 isolated node(s):** `name`, `version`, `private`, `description`, `type` (+48 more)
+- **54 isolated node(s):** `What is LeetHub?`, `Why LeetHub?`, `Features`, `How does LeetHub work?`, `Features & Settings` (+49 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -109,15 +109,15 @@ Nodes (32): archiveAndResetStats(), buildProblemPath(), computeStatsFromReadmes(
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `$()` connect `jQuery Vendor Bundle` to `Community 19`?**
-  _High betweenness centrality (0.279) - this node is a cross-community bridge._
+  _High betweenness centrality (0.277) - this node is a cross-community bridge._
 - **Why does `checkModeType()` connect `Community 19` to `jQuery Vendor Bundle`?**
-  _High betweenness centrality (0.075) - this node is a cross-community bridge._
+  _High betweenness centrality (0.074) - this node is a cross-community bridge._
 - **Why does `LeetCodeV2()` connect `Stats and Version Utilities` to `LeetCode Submission Core`?**
   _High betweenness centrality (0.068) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `$()` (e.g. with `renderStats()` and `checkModeType()`) actually correct?**
   _`$()` has 5 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `name`, `version`, `private` to the rest of the system?**
-  _53 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `What is LeetHub?`, `Why LeetHub?`, `Features` to the rest of the system?**
+  _54 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `jQuery Vendor Bundle` be split into smaller, more focused modules?**
   _Cohesion score 0.07393483709273183 - nodes in this community are weakly interconnected._
 - **Should `LeetCode Submission Core` be split into smaller, more focused modules?**
