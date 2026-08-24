@@ -1,16 +1,16 @@
 # Graph Report - leethub  (2026-08-24)
 
 ## Corpus Check
-- 22 files · ~285,302 words
+- 22 files · ~284,625 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 239 nodes · 442 edges · 16 communities (9 shown, 7 thin omitted)
+- 238 nodes · 456 edges · 16 communities (10 shown, 6 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9aebce88`
+- Built from commit: `0d919e04`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,7 +20,7 @@
 - [[_COMMUNITY_Stats and Version Utilities|Stats and Version Utilities]]
 - [[_COMMUNITY_package.json Build Deps|package.json Build Deps]]
 - [[_COMMUNITY_README and Popup UI|README and Popup UI]]
-- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_GeeksforGeeks Support|GeeksforGeeks Support]]
 - [[_COMMUNITY_Webpack Build Config|Webpack Build Config]]
 - [[_COMMUNITY_Background Service Worker|Background Service Worker]]
@@ -34,24 +34,24 @@
 1. `$()` - 63 edges
 2. `LeetCodeV2()` - 20 edges
 3. `LeetCodeV1()` - 17 edges
-4. `getBrowser()` - 14 edges
-5. `checkElem()` - 14 edges
-6. `syncStatsFromRepo()` - 11 edges
-7. `scripts` - 9 edges
-8. `Te()` - 9 edges
-9. `updateReadmeTopicTagsWithProblem()` - 8 edges
-10. `recomputeStatsFromRepo()` - 8 edges
+4. `githubHeaders()` - 16 edges
+5. `getBrowser()` - 14 edges
+6. `checkElem()` - 14 edges
+7. `syncStatsFromRepo()` - 11 edges
+8. `scripts` - 9 edges
+9. `Te()` - 9 edges
+10. `updateReadmeTopicTagsWithProblem()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `renderStats()` --calls--> `$()`  [INFERRED]
   scripts/popup.js → scripts/jquery-3.3.1.min.js
-- `checkModeType()` --calls--> `$()`  [INFERRED]
-  scripts/welcome.js → scripts/jquery-3.3.1.min.js
 - `renderStats()` --calls--> `$()`  [INFERRED]
   scripts/welcome.js → scripts/jquery-3.3.1.min.js
 - `showCommitMode()` --calls--> `$()`  [INFERRED]
   scripts/welcome.js → scripts/jquery-3.3.1.min.js
 - `showHookMode()` --calls--> `$()`  [INFERRED]
+  scripts/welcome.js → scripts/jquery-3.3.1.min.js
+- `checkModeType()` --calls--> `$()`  [INFERRED]
   scripts/welcome.js → scripts/jquery-3.3.1.min.js
 
 ## Import Cycles
@@ -61,15 +61,15 @@
 - **LeetHub Onboarding Flow (Auth, Hook, Commit modes shared across popup and welcome)** — popup_popup_auth_mode, popup_popup_hook_mode, popup_popup_commit_mode, welcome_welcome_auth_mode, welcome_welcome_hook_mode, welcome_welcome_commit_mode [INFERRED 0.85]
 - **GitHub Issue Templates (bug and feature reporting)** — issue_template_bug_report_bug_report, issue_template_config_bug_report_form, issue_template_feature_request_feature_request, issue_template_config_issue_template_config [EXTRACTED 1.00]
 
-## Communities (16 total, 7 thin omitted)
+## Communities (16 total, 6 thin omitted)
 
 ### Community 0 - "jQuery Vendor Bundle"
 Cohesion: 0.07
 Nodes (46): $(), a(), ae(), be(), C(), ce(), ct(), de() (+38 more)
 
 ### Community 1 - "LeetCode Submission Core"
-Cohesion: 0.09
-Nodes (29): api, createRepoReadme(), decode(), encode(), getAndInitializeStats(), getCustomCommitMessage(), getGitHubFile(), getLastCommitMessage() (+21 more)
+Cohesion: 0.11
+Nodes (29): api, createRepoReadme(), decode(), DEFAULT_STATS(), encode(), getAndInitializeStats(), getCustomCommitMessage(), getGitHubFile() (+21 more)
 
 ### Community 2 - "Stats and Version Utilities"
 Cohesion: 0.07
@@ -77,39 +77,43 @@ Nodes (10): incrementStats(), questionSlugToProblemName(), addLeadingZeros(), ch
 
 ### Community 3 - "package.json Build Deps"
 Cohesion: 0.08
-Nodes (25): description, devDependencies, chrome-types, copy-webpack-plugin, filemanager-webpack-plugin, ignore-loader, jasmine, prettier (+17 more)
+Nodes (24): description, devDependencies, chrome-types, copy-webpack-plugin, filemanager-webpack-plugin, ignore-loader, jasmine, prettier (+16 more)
 
 ### Community 4 - "README and Popup UI"
 Cohesion: 0.22
-Nodes (8): Changelog, Credits, Features, How does LeetHub work?, How to set up LeetHub for local development, NPM Commands, What is LeetHub?, Why LeetHub?
+Nodes (8): Changelog, Credits, Features, How does LeetHub work?, How to set up LeetHub for local development, pnpm Commands, What is LeetHub?, Why LeetHub?
+
+### Community 6 - "Community 6"
+Cohesion: 0.43
+Nodes (5): addManualSubmitBtn(), createGitIcon(), createToolTip(), getSubmissionPageBtns(), setupManualSubmitBtn()
 
 ### Community 8 - "Webpack Build Config"
 Cohesion: 0.29
 Nodes (5): __dirname, entries, __filename, folderIgnore, ignore
 
 ### Community 19 - "Community 19"
-Cohesion: 0.13
-Nodes (32): loader(), archiveAndResetStats(), buildProblemPath(), computeStatsFromReadmes(), encodeJsonContent(), ensureRepoReadme(), fetchRepoContent(), getBrowser() (+24 more)
+Cohesion: 0.14
+Nodes (32): archiveAndResetStats(), buildProblemPath(), computeStatsFromReadmes(), encodeJsonContent(), ensureRepoReadme(), escapeHtml(), fetchRepoContent(), getBrowser() (+24 more)
 
 ## Knowledge Gaps
-- **47 isolated node(s):** `What is LeetHub?`, `Why LeetHub?`, `Features`, `How does LeetHub work?`, `NPM Commands` (+42 more)
+- **46 isolated node(s):** `api`, `submitBtnObserver`, `SETTINGS_KEYS`, `api`, `api` (+41 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `$()` connect `jQuery Vendor Bundle` to `Community 19`, `Community 5`?**
-  _High betweenness centrality (0.299) - this node is a cross-community bridge._
+- **Why does `$()` connect `jQuery Vendor Bundle` to `Community 19`?**
+  _High betweenness centrality (0.301) - this node is a cross-community bridge._
 - **Why does `checkModeType()` connect `Community 19` to `jQuery Vendor Bundle`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
+  _High betweenness centrality (0.081) - this node is a cross-community bridge._
 - **Why does `LeetCodeV2()` connect `Stats and Version Utilities` to `LeetCode Submission Core`?**
-  _High betweenness centrality (0.072) - this node is a cross-community bridge._
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `$()` (e.g. with `renderStats()` and `checkModeType()`) actually correct?**
   _`$()` has 5 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `What is LeetHub?`, `Why LeetHub?`, `Features` to the rest of the system?**
-  _47 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `api`, `submitBtnObserver`, `SETTINGS_KEYS` to the rest of the system?**
+  _46 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `jQuery Vendor Bundle` be split into smaller, more focused modules?**
   _Cohesion score 0.07393483709273183 - nodes in this community are weakly interconnected._
 - **Should `LeetCode Submission Core` be split into smaller, more focused modules?**
-  _Cohesion score 0.09388335704125178 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10588235294117647 - nodes in this community are weakly interconnected._
