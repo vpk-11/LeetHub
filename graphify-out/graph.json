@@ -37,44 +37,264 @@
   },
   "nodes": [
     {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "eslint_config",
+      "community": 20,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "background.ts",
+      "file_type": "code",
+      "source_file": "scripts/background.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_background",
+      "community": 19,
+      "norm_label": "background.ts"
+    },
+    {
+      "label": "api",
+      "file_type": "code",
+      "source_file": "scripts/background.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "scripts_background_api",
+      "community": 19,
+      "norm_label": "api"
+    },
+    {
+      "label": "BackgroundMessage",
+      "file_type": "code",
+      "source_file": "scripts/background.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "scripts_background_backgroundmessage",
+      "community": 19,
+      "norm_label": "backgroundmessage"
+    },
+    {
+      "label": "configsEdit.ts",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_configsedit",
+      "community": 6,
+      "norm_label": "configsedit.ts"
+    },
+    {
+      "label": "DEFAULT_SETTINGS",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "scripts_configsedit_default_settings",
+      "community": 6,
+      "norm_label": "default_settings"
+    },
+    {
+      "label": "isOn()",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "scripts_configsedit_ison",
+      "community": 6,
+      "norm_label": "ison()"
+    },
+    {
+      "label": "setSwitch()",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "scripts_configsedit_setswitch",
+      "community": 6,
+      "norm_label": "setswitch()"
+    },
+    {
+      "label": "updateFolderLivePreview()",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "scripts_configsedit_updatefolderlivepreview",
+      "community": 6,
+      "norm_label": "updatefolderlivepreview()"
+    },
+    {
+      "label": "updateTimestampExample()",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "scripts_configsedit_updatetimestampexample",
+      "community": 6,
+      "norm_label": "updatetimestampexample()"
+    },
+    {
+      "label": "wireConfigsEditForm()",
+      "file_type": "code",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "scripts_configsedit_wireconfigseditform",
+      "community": 6,
+      "norm_label": "wireconfigseditform()"
+    },
+    {
+      "label": "configsSummary.ts",
+      "file_type": "code",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_configssummary",
+      "community": 19,
+      "norm_label": "configssummary.ts"
+    },
+    {
+      "label": "renderConfigsSummary()",
+      "file_type": "code",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "scripts_configssummary_renderconfigssummary",
+      "community": 6,
+      "norm_label": "renderconfigssummary()"
+    },
+    {
+      "label": "submitBtn.ts",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn",
+      "community": 2,
+      "norm_label": "submitbtn.ts"
+    },
+    {
+      "label": "getSubmissionPageBtns()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn_getsubmissionpagebtns",
+      "community": 2,
+      "norm_label": "getsubmissionpagebtns()"
+    },
+    {
+      "label": "createToolTip()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn_createtooltip",
+      "community": 2,
+      "norm_label": "createtooltip()"
+    },
+    {
+      "label": "createGitIcon()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn_creategiticon",
+      "community": 2,
+      "norm_label": "creategiticon()"
+    },
+    {
+      "label": "isValidSuffix()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn_isvalidsuffix",
+      "community": 2,
+      "norm_label": "isvalidsuffix()"
+    },
+    {
+      "label": "addManualSubmitBtn()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn_addmanualsubmitbtn",
+      "community": 2,
+      "norm_label": "addmanualsubmitbtn()"
+    },
+    {
+      "label": "setupManualSubmitBtn()",
+      "file_type": "code",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "leetcode_submitbtn_setupmanualsubmitbtn",
+      "community": 2,
+      "norm_label": "setupmanualsubmitbtn()"
+    },
+    {
       "label": "popup.ts",
       "file_type": "code",
       "source_file": "scripts/popup.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "scripts_popup",
-      "community": 19,
+      "community": 6,
       "norm_label": "popup.ts"
     },
     {
       "label": "api",
       "file_type": "code",
       "source_file": "scripts/popup.ts",
-      "source_location": "L4",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "scripts_popup_api",
-      "community": 19,
+      "community": 6,
       "norm_label": "api"
     },
     {
       "label": "renderStats()",
       "file_type": "code",
       "source_file": "scripts/popup.ts",
-      "source_location": "L7",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "scripts_popup_renderstats",
-      "community": 19,
+      "community": 6,
       "norm_label": "renderstats()"
     },
     {
-      "label": "pushConfigToRepo()",
+      "label": "welcomeUrl",
       "file_type": "code",
       "source_file": "scripts/popup.ts",
-      "source_location": "L18",
+      "source_location": "L29",
       "_origin": "ast",
-      "id": "scripts_popup_pushconfigtorepo",
-      "community": 19,
-      "norm_label": "pushconfigtorepo()"
+      "id": "scripts_popup_welcomeurl",
+      "community": 6,
+      "norm_label": "welcomeurl"
+    },
+    {
+      "label": "theme.ts",
+      "file_type": "code",
+      "source_file": "scripts/theme.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_theme",
+      "community": 6,
+      "norm_label": "theme.ts"
+    },
+    {
+      "label": "initTheme()",
+      "file_type": "code",
+      "source_file": "scripts/theme.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "scripts_theme_inittheme",
+      "community": 6,
+      "norm_label": "inittheme()"
     },
     {
       "label": "welcome.ts",
@@ -90,7 +310,7 @@
       "label": "api",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L13",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "scripts_welcome_api",
       "community": 19,
@@ -100,17 +320,27 @@
       "label": "renderStats()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L16",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "scripts_welcome_renderstats",
       "community": 19,
       "norm_label": "renderstats()"
     },
     {
+      "label": "setSyncStatus()",
+      "file_type": "code",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "scripts_welcome_setsyncstatus",
+      "community": 19,
+      "norm_label": "setsyncstatus()"
+    },
+    {
       "label": "validateToken()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L25",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "scripts_welcome_validatetoken",
       "community": 19,
@@ -120,7 +350,7 @@
       "label": "validateRepo()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L38",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "scripts_welcome_validaterepo",
       "community": 19,
@@ -130,17 +360,17 @@
       "label": "showCommitMode()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L53",
+      "source_location": "L74",
       "_origin": "ast",
       "id": "scripts_welcome_showcommitmode",
-      "community": 19,
+      "community": 6,
       "norm_label": "showcommitmode()"
     },
     {
       "label": "showHookMode()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L64",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "scripts_welcome_showhookmode",
       "community": 19,
@@ -150,7 +380,7 @@
       "label": "unlinkRepo()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L70",
+      "source_location": "L88",
       "_origin": "ast",
       "id": "scripts_welcome_unlinkrepo",
       "community": 19,
@@ -160,41 +390,81 @@
       "label": "checkModeType()",
       "file_type": "code",
       "source_file": "scripts/welcome.ts",
-      "source_location": "L220",
+      "source_location": "L230",
       "_origin": "ast",
       "id": "scripts_welcome_checkmodetype",
       "community": 19,
       "norm_label": "checkmodetype()"
     },
     {
-      "label": "background.ts",
+      "label": "webpack.config.js",
       "file_type": "code",
-      "source_file": "scripts/background.ts",
+      "source_file": "webpack.config.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
-      "norm_label": "background.ts",
-      "id": "scripts_background"
+      "id": "webpack_config",
+      "community": 8,
+      "norm_label": "webpack.config.js"
     },
     {
-      "label": "api",
+      "label": "__filename",
       "file_type": "code",
-      "source_file": "scripts/background.ts",
+      "source_file": "webpack.config.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 19,
-      "norm_label": "api",
-      "id": "scripts_background_api"
+      "id": "webpack_config_filename",
+      "community": 8,
+      "norm_label": "__filename"
     },
     {
-      "label": "BackgroundMessage",
+      "label": "__dirname",
       "file_type": "code",
-      "source_file": "scripts/background.ts",
-      "source_location": "L10",
+      "source_file": "webpack.config.js",
+      "source_location": "L9",
       "_origin": "ast",
-      "community": 19,
-      "norm_label": "backgroundmessage",
-      "id": "scripts_background_backgroundmessage"
+      "id": "webpack_config_dirname",
+      "community": 8,
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "entries",
+      "file_type": "code",
+      "source_file": "webpack.config.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "webpack_config_entries",
+      "community": 8,
+      "norm_label": "entries"
+    },
+    {
+      "label": "ignore",
+      "file_type": "code",
+      "source_file": "webpack.config.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "webpack_config_ignore",
+      "community": 8,
+      "norm_label": "ignore"
+    },
+    {
+      "label": "folderIgnore",
+      "file_type": "code",
+      "source_file": "webpack.config.js",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "webpack_config_folderignore",
+      "community": 8,
+      "norm_label": "folderignore"
+    },
+    {
+      "label": "manifestTransform()",
+      "file_type": "code",
+      "source_file": "webpack.config.js",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "webpack_config_manifesttransform",
+      "community": 8,
+      "norm_label": "manifesttransform()"
     },
     {
       "label": "leetcode.ts",
@@ -442,7 +712,7 @@
       "source_file": "scripts/leetcode/leetcode.ts",
       "source_location": "L539",
       "_origin": "ast",
-      "community": 1,
+      "community": 19,
       "norm_label": "loader()",
       "id": "leetcode_leetcode_loader"
     },
@@ -465,76 +735,6 @@
       "community": 1,
       "norm_label": "submitbtnobserver",
       "id": "leetcode_leetcode_submitbtnobserver"
-    },
-    {
-      "label": "submitBtn.ts",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "submitbtn.ts",
-      "id": "leetcode_submitbtn"
-    },
-    {
-      "label": "getSubmissionPageBtns()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "getsubmissionpagebtns()",
-      "id": "leetcode_submitbtn_getsubmissionpagebtns"
-    },
-    {
-      "label": "createToolTip()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "createtooltip()",
-      "id": "leetcode_submitbtn_createtooltip"
-    },
-    {
-      "label": "createGitIcon()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "creategiticon()",
-      "id": "leetcode_submitbtn_creategiticon"
-    },
-    {
-      "label": "isValidSuffix()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L47",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "isvalidsuffix()",
-      "id": "leetcode_submitbtn_isvalidsuffix"
-    },
-    {
-      "label": "addManualSubmitBtn()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L57",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "addmanualsubmitbtn()",
-      "id": "leetcode_submitbtn_addmanualsubmitbtn"
-    },
-    {
-      "label": "setupManualSubmitBtn()",
-      "file_type": "code",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L107",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "setupmanualsubmitbtn()",
-      "id": "leetcode_submitbtn_setupmanualsubmitbtn"
     },
     {
       "label": "readmeTopics.ts",
@@ -1162,7 +1362,7 @@
       "source_file": "scripts/leetcode/util.ts",
       "source_location": "L203",
       "_origin": "ast",
-      "community": 1,
+      "community": 19,
       "norm_label": "parsecustomcommitmessage()",
       "id": "leetcode_util_parsecustomcommitmessage"
     },
@@ -1172,7 +1372,7 @@
       "source_file": "scripts/leetcode/util.ts",
       "source_location": "L213",
       "_origin": "ast",
-      "community": 1,
+      "community": 19,
       "norm_label": "gettodaysdate()",
       "id": "leetcode_util_gettodaysdate"
     },
@@ -1182,7 +1382,7 @@
       "source_file": "scripts/leetcode/util.ts",
       "source_location": "L221",
       "_origin": "ast",
-      "community": 1,
+      "community": 19,
       "norm_label": "gettimestamp()",
       "id": "leetcode_util_gettimestamp"
     },
@@ -1242,7 +1442,7 @@
       "source_file": "scripts/leetcode/util.ts",
       "source_location": "L281",
       "_origin": "ast",
-      "community": 19,
+      "community": 6,
       "norm_label": "escapehtml()",
       "id": "leetcode_util_escapehtml"
     },
@@ -1435,16 +1635,6 @@
       "community": 19,
       "norm_label": "archiveandresetstats()",
       "id": "leetcode_util_archiveandresetstats"
-    },
-    {
-      "label": "eslint.config.js",
-      "file_type": "code",
-      "source_file": "eslint.config.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 20,
-      "norm_label": "eslint.config.js",
-      "id": "eslint_config"
     },
     {
       "label": "package.json",
@@ -1935,76 +2125,6 @@
       "community": 16,
       "norm_label": "exclude",
       "id": "tsconfig_exclude"
-    },
-    {
-      "label": "webpack.config.js",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "webpack.config.js",
-      "id": "webpack_config"
-    },
-    {
-      "label": "__filename",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "__filename",
-      "id": "webpack_config_filename"
-    },
-    {
-      "label": "__dirname",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "__dirname",
-      "id": "webpack_config_dirname"
-    },
-    {
-      "label": "entries",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "entries",
-      "id": "webpack_config_entries"
-    },
-    {
-      "label": "ignore",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "ignore",
-      "id": "webpack_config_ignore"
-    },
-    {
-      "label": "folderIgnore",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L39",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "folderignore",
-      "id": "webpack_config_folderignore"
-    },
-    {
-      "label": "manifestTransform()",
-      "file_type": "code",
-      "source_file": "webpack.config.js",
-      "source_location": "L41",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "manifesttransform()",
-      "id": "webpack_config_manifesttransform"
     },
     {
       "label": "README.md",
@@ -2837,16 +2957,6 @@
       "id": "scripts_jquery_3_3_1_min_k"
     },
     {
-      "label": "semantic-2.4.1.min.js",
-      "file_type": "code",
-      "source_file": "scripts/semantic-2.4.1.min.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "semantic-2.4.1.min.js",
-      "id": "scripts_semantic_2_4_1_min"
-    },
-    {
       "label": "bug_report.md",
       "file_type": "document",
       "source_file": ".github/ISSUE_TEMPLATE/bug_report.md",
@@ -2931,6 +3041,585 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_archiveandresetstats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_getbrowser"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_pushconfigtorepo"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_syncconfigfromrepo"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "leetcode_util_syncstatsfromrepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "scripts_background_api"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/background.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_background",
+      "target": "scripts_background_backgroundmessage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "leetcode_util_buildproblempath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "leetcode_util_getbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "leetcode_util_gettimestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configsedit_default_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configsedit_ison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configsedit_setswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configsedit_updatefolderlivepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configsedit_updatetimestampexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configsedit_wireconfigseditform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "scripts_configsedit",
+      "target": "scripts_configssummary_renderconfigssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_configsedit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_configsedit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_configsedit_updatefolderlivepreview",
+      "target": "scripts_configsedit_ison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "scripts_configsedit_updatetimestampexample",
+      "target": "scripts_configsedit_ison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "scripts_configsedit_wireconfigseditform",
+      "target": "scripts_configsedit_ison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "scripts_configsedit_wireconfigseditform",
+      "target": "scripts_configsedit_setswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "scripts_configsedit_wireconfigseditform",
+      "target": "scripts_configsedit_updatefolderlivepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsEdit.ts",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "scripts_configsedit_wireconfigseditform",
+      "target": "scripts_configsedit_updatetimestampexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_configsedit_wireconfigseditform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_configsedit_wireconfigseditform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configssummary",
+      "target": "leetcode_util_buildproblempath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configssummary",
+      "target": "leetcode_util_getbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configssummary",
+      "target": "leetcode_util_gettodaysdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_configssummary",
+      "target": "leetcode_util_parsecustomcommitmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/configsSummary.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "scripts_configssummary",
+      "target": "scripts_configssummary_renderconfigssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_configssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_configssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_configssummary_renderconfigssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_configssummary_renderconfigssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "scripts_welcome_showcommitmode",
+      "target": "scripts_configssummary_renderconfigssummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/leetcode.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_leetcode",
+      "target": "leetcode_submitbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_addmanualsubmitbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_creategiticon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_createtooltip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_getsubmissionpagebtns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_isvalidsuffix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_submitbtn_setupmanualsubmitbtn"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_util"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_util_getbrowser"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_versions_leetcodev1"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn",
+      "target": "leetcode_versions_leetcodev2"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn_addmanualsubmitbtn",
+      "target": "leetcode_submitbtn_getsubmissionpagebtns"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn_addmanualsubmitbtn",
+      "target": "leetcode_submitbtn_createtooltip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/submitBtn.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_submitbtn_addmanualsubmitbtn",
+      "target": "leetcode_submitbtn_creategiticon"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/leetcode/leetcode.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leetcode_leetcode",
+      "target": "leetcode_submitbtn_setupmanualsubmitbtn"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/popup.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -2967,9 +3656,9 @@
       "source_file": "scripts/popup.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_popup",
-      "target": "leetcode_util_statscounts",
-      "confidence_score": 1.0
+      "target": "leetcode_util_statscounts"
     },
     {
       "relation": "contains",
@@ -2985,21 +3674,43 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/popup.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_popup",
-      "target": "scripts_popup_pushconfigtorepo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/popup.js",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_popup",
       "target": "scripts_popup_renderstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_popup_welcomeurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_theme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/popup.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "scripts_popup",
+      "target": "scripts_theme_inittheme",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3011,6 +3722,49 @@
       "weight": 1.0,
       "source": "scripts_popup_renderstats",
       "target": "scripts_jquery_3_3_1_min"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/theme.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_theme",
+      "target": "leetcode_util_getbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/theme.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "scripts_theme",
+      "target": "scripts_theme_inittheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_theme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_theme_inittheme",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3082,6 +3836,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "leetcode_util_pushconfigtorepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/welcome.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -3096,9 +3861,9 @@
       "source_file": "scripts/welcome.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_welcome",
-      "target": "leetcode_util_statscounts",
-      "confidence_score": 1.0
+      "target": "leetcode_util_statscounts"
     },
     {
       "relation": "imports",
@@ -3151,6 +3916,16 @@
       "confidence_score": 1.0,
       "source": "scripts_welcome",
       "target": "scripts_welcome_renderstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/welcome.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "scripts_welcome",
+      "target": "scripts_welcome_setsyncstatus",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3324,79 +4099,64 @@
       "target": "scripts_jquery_3_3_1_min"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
+      "source_file": "webpack.config.js",
+      "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_getbrowser"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_pushconfigtorepo"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_syncconfigfromrepo"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "leetcode_util_syncstatsfromrepo"
+      "source": "webpack_config",
+      "target": "webpack_config_dirname"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/background.js",
+      "source_file": "webpack.config.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "webpack_config",
+      "target": "webpack_config_entries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "webpack.config.js",
       "source_location": "L8",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "scripts_background_api"
+      "source": "webpack_config",
+      "target": "webpack_config_filename"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/background.ts",
-      "source_location": "L10",
+      "source_file": "webpack.config.js",
+      "source_location": "L35",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "scripts_background",
-      "target": "scripts_background_backgroundmessage"
+      "source": "webpack_config",
+      "target": "webpack_config_folderignore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "webpack.config.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "webpack_config",
+      "target": "webpack_config_ignore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "webpack.config.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "webpack_config",
+      "target": "webpack_config_manifesttransform"
     },
     {
       "relation": "contains",
@@ -3680,28 +4440,6 @@
       "confidence_score": 1.0,
       "source": "leetcode_leetcode",
       "target": "leetcode_readmetopics_sorttopicsinreadme"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_leetcode",
-      "target": "leetcode_submitbtn"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/leetcode.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_leetcode",
-      "target": "leetcode_submitbtn_setupmanualsubmitbtn"
     },
     {
       "relation": "imports_from",
@@ -4284,143 +5022,6 @@
       "confidence_score": 1.0,
       "source": "leetcode_leetcode_loader",
       "target": "leetcode_util_gettodaysdate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_addmanualsubmitbtn"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_creategiticon"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_createtooltip"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_getsubmissionpagebtns"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_isvalidsuffix"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_submitbtn_setupmanualsubmitbtn"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_util"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_util_getbrowser"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_versions_leetcodev1"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn",
-      "target": "leetcode_versions_leetcodev2"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn_addmanualsubmitbtn",
-      "target": "leetcode_submitbtn_getsubmissionpagebtns"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn_addmanualsubmitbtn",
-      "target": "leetcode_submitbtn_createtooltip"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/leetcode/submitBtn.js",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "leetcode_submitbtn_addmanualsubmitbtn",
-      "target": "leetcode_submitbtn_creategiticon"
     },
     {
       "relation": "contains",
@@ -6737,66 +7338,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "webpack.config.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "webpack_config",
-      "target": "webpack_config_dirname"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "webpack.config.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "webpack_config",
-      "target": "webpack_config_entries"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "webpack.config.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "webpack_config",
-      "target": "webpack_config_filename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "webpack.config.js",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "webpack_config",
-      "target": "webpack_config_folderignore"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "webpack.config.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "webpack_config",
-      "target": "webpack_config_ignore"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "webpack.config.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "webpack_config",
-      "target": "webpack_config_manifesttransform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L78",
       "weight": 1.0,
@@ -8299,5 +8840,5 @@
       "source_file": ".github/ISSUE_TEMPLATE/config.yml"
     }
   ],
-  "built_at_commit": "ae40c89ea5025b8dd791124113019fdcc80d175d"
+  "built_at_commit": "1ae8810262a0d557caab1cda99a486a9e19abece"
 }
