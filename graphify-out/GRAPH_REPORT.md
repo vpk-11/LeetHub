@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 321 nodes · 626 edges · 19 communities (15 shown, 4 thin omitted)
-- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.8)
+- 321 nodes · 636 edges · 19 communities (15 shown, 4 thin omitted)
+- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 37 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b33854bf`
+- Built from commit: `989d9bcc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,28 +32,28 @@
 - [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `$()` - 54 edges
+1. `$()` - 64 edges
 2. `LeetCodeV2` - 22 edges
 3. `getBrowser()` - 20 edges
 4. `LeetCodeV1` - 18 edges
 5. `githubHeaders()` - 17 edges
 6. `checkElem()` - 15 edges
 7. `compilerOptions` - 12 edges
-8. `syncStatsFromRepo()` - 11 edges
-9. `archiveAndResetStats()` - 11 edges
-10. `ee()` - 11 edges
+8. `ee()` - 11 edges
+9. `syncStatsFromRepo()` - 11 edges
+10. `archiveAndResetStats()` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Stats` --inherits--> `StatsCounts`  [EXTRACTED]
-  scripts/leetcode/leetcode.ts → scripts/leetcode/util.ts
-- `upload()` --calls--> `githubHeaders()`  [EXTRACTED]
-  scripts/leetcode/leetcode.ts → scripts/leetcode/util.ts
-- `findExistingProblemDir()` --calls--> `fetchRepoTree()`  [EXTRACTED]
-  scripts/leetcode/leetcode.ts → scripts/leetcode/util.ts
-- `getGitHubFile()` --calls--> `githubHeaders()`  [EXTRACTED]
-  scripts/leetcode/leetcode.ts → scripts/leetcode/util.ts
-- `getCustomCommitMessage()` --calls--> `parseCustomCommitMessage()`  [EXTRACTED]
-  scripts/leetcode/leetcode.ts → scripts/leetcode/util.ts
+- `renderStats()` --calls--> `$()`  [INFERRED]
+  scripts/popup.ts → scripts/jquery-3.7.1.min.js
+- `setSyncStatus()` --calls--> `$()`  [INFERRED]
+  scripts/welcome.ts → scripts/jquery-3.7.1.min.js
+- `updateFolderLivePreview()` --calls--> `$()`  [INFERRED]
+  scripts/configsEdit.ts → scripts/jquery-3.7.1.min.js
+- `updateTimestampExample()` --calls--> `$()`  [INFERRED]
+  scripts/configsEdit.ts → scripts/jquery-3.7.1.min.js
+- `wireConfigsEditForm()` --calls--> `$()`  [INFERRED]
+  scripts/configsEdit.ts → scripts/jquery-3.7.1.min.js
 
 ## Import Cycles
 - None detected.
@@ -62,19 +62,19 @@
 
 ### Community 0 - "jQuery Vendor Bundle"
 Cohesion: 0.11
-Nodes (41): Stats, archiveAndResetStats(), BrowserApi, bumpRepoStat(), computeStatsFromReadmes(), encodeJsonContent(), ensureRepoReadme(), escapeHtml() (+33 more)
+Nodes (42): Stats, archiveAndResetStats(), BrowserApi, bumpRepoStat(), computeStatsFromReadmes(), encodeJsonContent(), ensureRepoReadme(), escapeHtml() (+34 more)
 
 ### Community 1 - "LeetCode Submission Core"
-Cohesion: 0.24
-Nodes (13): loader(), buildProblemPath(), DEFAULT_CONFIG, getTimestamp(), getTodaysDate(), isOn(), setSwitch(), updateFolderLivePreview() (+5 more)
+Cohesion: 0.29
+Nodes (11): buildProblemPath(), DEFAULT_CONFIG, isOn(), setSwitch(), updateFolderLivePreview(), updateTimestampExample(), wireConfigsEditForm(), renderConfigsSummary() (+3 more)
 
 ### Community 2 - "Stats and Version Utilities"
 Cohesion: 0.06
 Nodes (15): addManualSubmitBtn(), createGitIcon(), createToolTip(), getSubmissionPageBtns(), setupManualSubmitBtn(), checkElem(), formatStats(), getDifficulty() (+7 more)
 
 ### Community 3 - "package.json Build Deps"
-Cohesion: 0.10
-Nodes (32): api, createRepoReadme(), decode(), encode(), findExistingProblemDir(), getAndInitializeStats(), getCustomCommitMessage(), getGitHubFile() (+24 more)
+Cohesion: 0.09
+Nodes (35): api, createRepoReadme(), decode(), encode(), findExistingProblemDir(), getAndInitializeStats(), getCustomCommitMessage(), getGitHubFile() (+27 more)
 
 ### Community 4 - "README and Popup UI"
 Cohesion: 0.06
@@ -105,24 +105,24 @@ Cohesion: 0.09
 Nodes (37): $(), A(), Ae(), B(), Be(), c(), $e(), ee() (+29 more)
 
 ## Knowledge Gaps
-- **91 isolated node(s):** `api`, `BackgroundMessage`, `api`, `welcomeUrl`, `ProblemShas` (+86 more)
+- **91 isolated node(s):** `name`, `version`, `private`, `description`, `type` (+86 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `$()` connect `Community 18` to `jQuery Vendor Bundle`, `LeetCode Submission Core`?**
+  _High betweenness centrality (0.187) - this node is a cross-community bridge._
+- **Why does `getBrowser()` connect `jQuery Vendor Bundle` to `LeetCode Submission Core`, `package.json Build Deps`?**
+  _High betweenness centrality (0.057) - this node is a cross-community bridge._
 - **Why does `LeetCodeV2` connect `Stats and Version Utilities` to `package.json Build Deps`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **Why does `LeetCodeV1` connect `Stats and Version Utilities` to `package.json Build Deps`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **What connects `api`, `BackgroundMessage`, `api` to the rest of the system?**
+  _High betweenness centrality (0.054) - this node is a cross-community bridge._
+- **Are the 10 inferred relationships involving `$()` (e.g. with `updateFolderLivePreview()` and `updateTimestampExample()`) actually correct?**
+  _`$()` has 10 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `name`, `version`, `private` to the rest of the system?**
   _91 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `jQuery Vendor Bundle` be split into smaller, more focused modules?**
   _Cohesion score 0.10530612244897959 - nodes in this community are weakly interconnected._
 - **Should `Stats and Version Utilities` be split into smaller, more focused modules?**
   _Cohesion score 0.0596078431372549 - nodes in this community are weakly interconnected._
-- **Should `package.json Build Deps` be split into smaller, more focused modules?**
-  _Cohesion score 0.0975609756097561 - nodes in this community are weakly interconnected._
-- **Should `README and Popup UI` be split into smaller, more focused modules?**
-  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
